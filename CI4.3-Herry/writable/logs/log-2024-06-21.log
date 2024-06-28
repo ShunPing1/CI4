@@ -1,0 +1,314 @@
+INFO - 2024-06-21 08:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:55:21 --> Undefined array key "loginMember"
+in APPPATH\Views\templates\header.php on line 18.
+ 1 APPPATH\Views\templates\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\Home.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\Home->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:56:55 --> Undefined variable $cart_amount
+in APPPATH\Views\templates\header.php on line 84.
+ 1 APPPATH\Views\templates\header.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\Home.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\Home->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 08:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:57:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-21 08:57:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 08:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 08:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 08:59:40 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 08:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 09:13:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 09:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 09:14:15 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 09:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 09:15:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 09:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 09:15:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-21 09:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 09:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 11:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:12:10 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 473.
+ 1 SYSTEMPATH\Router\Router.php(473): explode()
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 14:13:16 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 473.
+ 1 SYSTEMPATH\Router\Router.php(473): explode()
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-21 14:14:41 --> explode(): Argument #2 ($string) must be of type string, array given
+in SYSTEMPATH\Router\Router.php on line 473.
+ 1 SYSTEMPATH\Router\Router.php(473): explode()
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:18:59 --> Undefined variable $title
+in APPPATH\Views\news\index.php on line 1.
+ 1 APPPATH\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:19:41 --> Undefined variable $title
+in APPPATH\Views\news\index.php on line 1.
+ 1 APPPATH\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:19:56 --> Undefined variable $news_list
+in APPPATH\Views\news\index.php on line 3.
+ 1 APPPATH\Views\news\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:20:51 --> Undefined variable $news_list
+in APPPATH\Views\news\index.php on line 3.
+ 1 APPPATH\Views\news\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(19): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:34:58 --> Undefined variable $news_item
+in APPPATH\Views\news\index.php on line 16.
+ 1 APPPATH\Views\news\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(21): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:35:45 --> Array to string conversion
+in APPPATH\Views\news\index.php on line 16.
+ 1 APPPATH\Views\news\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(21): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:38:10 --> Undefined variable $title
+in APPPATH\Views\news\index.php on line 1.
+ 1 APPPATH\Views\news\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(21): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-21 14:40:31 --> Undefined variable $news
+in APPPATH\Views\news\index.php on line 5.
+ 1 APPPATH\Views\news\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\news\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\News.php(21): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\News->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-21 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-21 14:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

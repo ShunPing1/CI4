@@ -1,0 +1,2463 @@
+INFO - 2024-06-24 08:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 08:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 08:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 09:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 09:19:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 09:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 09:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 09:19:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: about/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 09:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 10:10:34 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 10:13:48 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 10:14:06 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 10:14:25 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 10:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 10:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 11:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 11:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:07:28 --> Too few arguments to function App\Controllers\Ctr\ParamTest::test(), 0 passed in C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Ctr\ParamTest.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\ParamTest->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 12:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:08:10 --> Too few arguments to function App\Controllers\Ctr\ParamTest::test(), 0 passed in C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Ctr\ParamTest.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\ParamTest->test()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 12:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:09:01 --> Undefined variable $title
+in APPPATH\Views\ctr\test.php on line 2.
+ 1 APPPATH\Views\ctr\test.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\htdocs\\Herry\\CI4.3-Herry\\app\\Views\\ctr\\test.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Ctr\ParamTest.php(16): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\ParamTest->test()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:09:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:09:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:09:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:09:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:09:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:10:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:10:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:10:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:10:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:10:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:11:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:11:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/789/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/789/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 12:13:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/789/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/789/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 12:13:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/456/789/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 12:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:22:18 --> ucfirst(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Ctr\ParamTest.php on line 13.
+ 1 APPPATH\Controllers\Ctr\ParamTest.php(13): ucfirst()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\ParamTest->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 14:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:22:46 --> ucfirst(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Ctr\ParamTest.php on line 13.
+ 1 APPPATH\Controllers\Ctr\ParamTest.php(13): ucfirst()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\ParamTest->test()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 14:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:26:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:26:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:26:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:26:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:26:49 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:04 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:18 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:27:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:27:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:28:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:32:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:32:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:32:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:32:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:32:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:32:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:33:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:33:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:33:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:33:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:33:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:33:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test123/123/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:33:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test123/123/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:33:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test123/123/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:33:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test123/123/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:33:43 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test123/123/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:35:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:35:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:35:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:35:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:35:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:40:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/·|­ûµn¤J-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:40:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/ÁÊª«°Ó«°-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:40:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/©ñ¤jÃè-icon.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 14:40:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r1.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:40:50 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\htdocs\Herry\CI4.3-Herry\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format()
+#2 C:\htdocs\Herry\CI4.3-Herry\system\API\ResponseTrait.php(98): CodeIgniter\Debug\Exceptions->format()
+#3 C:\htdocs\Herry\CI4.3-Herry\system\Debug\Exceptions.php(150): CodeIgniter\Debug\Exceptions->respond()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+ã€Previous Exceptionã€‘
+CodeIgniter\Exceptions\PageNotFoundException
+Can't find a route for 'get: test/123/456/ctr/img/¼ÐÃD¤å¦r2.png'.
+#0 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(991): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound()
+#1 C:\htdocs\Herry\CI4.3-Herry\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->display404errors()
+#2 C:\htdocs\Herry\CI4.3-Herry\index.php(84): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 14:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 14:40:59 --> Invalid file: "/App/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:42:00 --> Invalid file: "/app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:42:18 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:42:32 --> Invalid file: "App/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:42:38 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:42:43 --> Invalid file: "aaaapp/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:43:10 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:43:49 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:43:56 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:43:59 --> Invalid file: "app/Views/ctr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 14:44:08 --> Invalid file: "app/Views/cr/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Router\RouteCollection.php(1018): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH\CodeIgniter.php(881): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:17:37 --> syntax error, unexpected token ".=", expecting "," or ";"
+in APPPATH\Controllers\Ctr\Galleries.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:17:46 --> The route for "user_gallery" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH\Controllers\Ctr\Galleries.php(11): url_to()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\Galleries->showUserGallery()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:18:11 --> The route for "user_gallery" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH\Controllers\Ctr\Galleries.php(11): url_to()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\Galleries->showUserGallery()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 17:21:08 --> The route for "user_gallery" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 APPPATH\Controllers\Ctr\Galleries.php(11): url_to()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Ctr\Galleries->showUserGallery()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-24 17:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
