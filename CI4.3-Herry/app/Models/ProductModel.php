@@ -1,17 +1,13 @@
 <?php
+    namespace App\Models;
 
-namespace App\Models;
-
-use CodeIgniter\Model;
-
-class ProductModel extends Model
-{
-    protected $table = 'products';
+    use CodeIgniter\Model;
     
-    public function getProducts()
+    class ProductModel extends Model
     {
+        protected $table = 'products';
+        protected $primaryKey = 'sID';
+        protected $allowedFields = ['categoryID','subcategoryID','sSort','sIMG','sName','sOri_Price','sDiscount','sNarrate','sContent1','sContent2','sContent3'];
+    
         
-        return $this->findAll();
-
     }
-}

@@ -26,78 +26,80 @@
                     <div class="all_catalog_block">
                         <div class="catalog_block">
                             <div class="contalog_title">帳戶管理</div>
-                            <!-- <a href="Backend_system.php"> -->
+                            <a href="BackendPage">
                                 <div class="contalog_content update_pwd_text current_page_active">編輯帳戶</div>
-                            <!-- </a> -->
-                            <!-- <a href="Backend_system.php"> -->
+                            </a>
+                            <a href="BackendPage">
                                 <div class="contalog_content update_pwd_text">更改密碼</div>
-                            <!-- </a> -->
+                            </a>
                         </div>
                         <div class="catalog_block">
                             <div class="contalog_title">商品管理</div>
-                            <!-- <a href="Backend_system.php"> -->
+                            <a href="BackendPage">
                                 <div class="contalog_content product_page_text">編輯商品</div>
-                            <!-- </a> -->
+                            </a>
                         </div>
                         <div class="catalog_block">
                             <div class="contalog_title">商品類別管理</div>
-                            <!-- <a href="Backend_system.php"> -->
+                            <a href="BackendPage">
                                 <div class="contalog_content contalog_page_text">商品類別</div>
-                            <!-- </a> -->
-                            <!-- <a href="Backend_system.php"> -->
+                            </a>
+                            <a href="BackendPage">
                                 <div class="contalog_content contalog_page_text">類別項目</div>
-                            <!-- </a> -->
+                            </a>
                         </div>
                         <div class="catalog_block">
                             <div class="contalog_title">會員管理</div>
-                            <!-- <a href="admin_list"> -->
+                            <a href="BackendPage">
                                 <div class="contalog_content contalog_page_text">管理員名單</div>
-                            <!-- </a> -->
-                            <!-- <a href="Backend_system.php"> -->
+                            </a>
+                            <a href="BackendPage">
                                 <div class="contalog_content contalog_page_text">會員名單</div>
-                            <!-- </a> -->
+                            </a>
                         </div>
                         <div class="catalog_block">
                             <div class="contalog_title">訂單管理</div>
-                            <!-- <a href="Backend_system.php"> -->
-                                <div class="contalog_content contalog_page_text">訂單狀態</div>
-                            <!-- </a> -->
-                            <!-- <a href="Backend_system.php"> -->
+                            <a href="BackendPage">
                                 <div class="contalog_content contalog_page_text">會員訂單</div>
-                            <!-- </a> -->
+                            </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="backend_container_right">
-                    <div class="admin_tag" data-page="編輯帳戶">
-                        編輯帳戶
+                    <div class="admin_tag backend_right_center" data-page="編輯帳戶">
+                        <?php require_once "edit_account.php";?>
                     </div>
-                    <div class="admin_tag hidden" data-page="更改密碼">
-                        更改密碼
+                    <div class="admin_tag  backend_right_center hidden" data-page="更改密碼">
+                        <?php require_once "change_password.php";?>
                     </div>
                     <div class="admin_tag productPage hidden" data-page="編輯商品">
-                        <?php 
-                            require_once "productList.php";
-                        ?>
+                        <?php require_once "product_list.php";?>
                     </div>
                     <div class="admin_tag hidden" data-page="商品類別">
-                        商品類別
+                        <?php 
+                            require_once "category_page.php";
+                        ?>
                     </div>
                     <div class="admin_tag hidden" data-page="類別項目">
-                        類別項目
+                        <?php 
+                            require_once "subcategory_page.php";
+                        ?>
                     </div>
                     <div class="admin_tag hidden" data-page="管理員名單">
-                        <?php require_once "adminList.php";?>
+                        <?php 
+                            require_once "admin_list.php";
+                        ?>
                     </div>
                     <div class="admin_tag hidden" data-page="會員名單">
-                        會員名單
-                    </div>
-                    <div class="admin_tag hidden" data-page="訂單狀態">
-                        訂單狀態
+                        <?php 
+                            require_once "member_list.php";
+                        ?>
                     </div>
                     <div class="admin_tag hidden" data-page="會員訂單">
-                        會員訂單
+                        <?php 
+                            require_once "order_list.php";
+                        ?>
                     </div>
                 </div>
                 <!-- 切換頁面JS -->

@@ -387,6 +387,67 @@ a{
     color: rgb(4, 105, 114);
 }
 
+/* edit account */
+.backend_right_center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.basic_info_block{
+    padding: 20px 0;
+}
+
+.txt_center{
+    text-align: center;
+}
+
+.basic_info_title{
+    font-size: 24px;
+}
+
+.input_title,
+.member_update_submit_block{
+    text-align: start;
+}
+
+.public_input{
+    width: 100%;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.public_input::placeholder{
+    color: #ccc;
+    font-size: 16px;
+}
+
+.public_submit_block{
+    margin-bottom: 15px;
+}
+
+.public_Btn{
+    background-color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid var(--dark-blue);
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.join_Btn,
+.reset_Btn,
+.update_Btn{
+    width: calc((100% - 20px)/2);
+    background-color: #fff;
+    color: var(--dark-blue);
+}
+
 /* product page */
 .backend_r_top_block{
     display: flex;
@@ -430,7 +491,7 @@ a{
     display: none;
 }
 
-/* adminList */
+/* admin list */
 .odd_list td{
     padding: 5px;
 }
@@ -438,3 +499,117 @@ a{
 .odd_list:nth-of-type(odd) td{
     background-color: #eee;
 }
+
+/* add product */
+
+.edit_title_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(59, 102, 118);
+    padding: 15px;
+}
+
+.edit_title{
+    font-size: 24px;
+    color: #fff;
+}
+
+.hint{
+    color: #f00;
+}
+
+.pages_table td{
+    padding: 5px 15px;
+}
+
+.pages_href_block{
+    margin: 20px 0;
+}
+
+#formAdd input,
+#formAdd select,
+#formAdd textarea{
+    width: 200px;
+}
+
+.imgUpload_block input{
+    width: 170px;
+}
+
+textarea{
+    height: 50px;
+}
+
+.product_content{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.red{
+    border: 2px solid #f00;
+}
+
+/* update product */
+#sIMG.file_path{
+    width: 48%;
+}
+
+
+
+
+
+
+/* error Msg & success Msg */
+.err_block,
+.success_block{
+    padding: 0px 30px 20px;
+}
+
+.error,
+.success{
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.error{
+    border: #f00 1px solid;
+    background-color: rgb(252, 202, 202);
+}
+
+.success{
+    border: rgb(21, 146, 73) 1px solid;
+    background-color: rgb(194, 238, 175);
+}
+
+.error_msg,
+.success_msg{
+    color: #000;
+}
+
+.error_msg i{
+    color: #f00;
+}
+
+.success_msg i{
+    color: rgb(21, 146, 73);
+}
+
+/* Btn style */
+.hrefBtn{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(98, 164, 190);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.editBtn{
+    border: unset;
+    background-color: transparent;
+}
+

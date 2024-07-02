@@ -3,22 +3,55 @@
 namespace App\Controllers\Ctr;
 
 use App\Controllers\BaseController;
-use App\Models\AdminModel;
 
 class TEST extends BaseController
 {
     public function index()
     {
-        // 分頁效果
-        $model = model(AdminModel::class);
-        $page = 2;
+        $db = \Config\Database::connect();
+        $builder = $db->table('admindata');
+        $builder->select('admindata.*');
+        $query = $builder->get();
+        $data['admins'] = $query->getResultArray();
+        return view('TEST/test_top')
+               .view('TEST/adminPage',$data)
+               .view('TEST/test_bottom');
+    }
 
+    public function member()
+    {
+        $db = \Config\Database::connect();
+        $builder = $db->table('memberdata');
+        $builder->select('memberdata.*');
+        $query = $builder->get();
+        $data['members'] = $query->getResultArray();
+        return view('TEST/test_top')
+        .view('TEST/memberPage',$data)
+        .view('TEST/test_bottom');
+    }
 
-        $data = [
-            'admins' => $model->paginate(5,'group',$page),
-            'pager' => $model->pager,
-        ];
-        return view("Admin/adminList",$data);
+    public function category()
+    {
+        return view('TEST/test_top')
+        .view('TEST/category')
+        .view('TEST/test_bottom');
+    }
+
+    public function SearchAdmin()
+    {
+        if (isset($_GET)) {
+            $keyword = $_GET['keyword'];
+            $db = \Config\Database::connect();
+            $builder = $db->table('admindata');
+            $builder->select('admindata.*');
+            $builder->like('a_username',$keyword);
+            $query = $builder->get();
+            $data['admins'] = $query->getResultArray();
+            return view('TEST/test_top')
+                   .view('TEST/adminPage',$data)
+                   .view('TEST/test_bottom');
+
+        }
     }
     
 }
