@@ -64,7 +64,13 @@
                         </select>
                     </td>
                 </tr>
+                <?php
+                    foreach($subcategory as $item){
+                        echo "<input type='hidden' class='subcategory_hidden_input' data-subcategoryId='{$item['subcategoryID']}' data-categoryId='{$item['categoryID']}' value='{$item['subcategoryName']}'>";
+                    }
+                ?>
                 <script>
+                    // 移除類別重複選項
                     repeat_option_remove($('#update_category_select option'));
                 </script>
 
@@ -78,12 +84,12 @@
                                         echo "<option value='{$item['subcategoryID']}'>{$item['subcategoryName']}</option>";
                                     }
                                 }
-
                                 foreach($subcategory as $item){
-                                    if ($subcategoryID != $item['subcategoryID']) {
+                                    if ($categoryID == $item['categoryID'] && $subcategoryID != $item['subcategoryID']) {
                                         echo "<option value='{$item['subcategoryID']}'>{$item['subcategoryName']}</option>";
                                     }
                                 }
+
 
                             ?>
 
@@ -91,7 +97,15 @@
                     </td>
                 </tr>
                 <script>
-
+                    let input = $('.subcategory_hidden_input');
+                    let input_data01 = 'categoryid';
+                    let input_data02 = 'subcategoryid';
+                    let select = $('#update_subcategory_select');
+                    $('#update_category_select').change(function(){
+                        let categoryId = $(this).val();
+                        create_option(categoryId,input,input_data01,input_data02,select);
+                        console.log($('#update_subcategory_select').val());
+                    })
                 </script>
                 
 

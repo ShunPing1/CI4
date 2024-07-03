@@ -23,7 +23,7 @@ class BackendPage extends BaseController
         $perPage = 5;
         // 計算偏移量
         $offset = ($product_page - 1) * $perPage;
-        // 總資料筆數（如果需要）
+        // 總資料筆數
         $products_total = $db->table('products')->countAll();
         $builder = $db->table('products');
         $builder->select('products.*, subcategory.subcategoryName');

@@ -49,29 +49,32 @@
                     </td>
                 </tr>
                 
+                <?php
+                    foreach($subcategory as $item){
+                        echo "<input type='hidden' class='subcategory_hidden_input' data-subcategoryId='{$item['subcategoryID']}' data-categoryId='{$item['categoryID']}' value='{$item['subcategoryName']}'>";
+                    }
+                ?>
+                
                 <tr>
                     <td>商品項目<span class='hint'>*</span></td>
                     <td>
                         <select name="subcategoryID" id="subcategory_option">
-                            <?php
-                                foreach($subcategory as $item){
-                                    echo "<option value='{$item['subcategoryID']}' class='subcategory_option' data-category='{$item['categoryID']}'>{$item['subcategoryName']}</option>";
-                                }
-                            ?>
+
                             
                         </select>
                     </td>
                 </tr>
                 <script>
                     repeat_option_remove($('#category_option option'));
-
-                    let categoryID = $('#category_option').val();
-                    let subcategory_option = $('.subcategory_option').data('category');
-                    hidden_option($('#category_option'),$('.subcategory_option'),'category');
+                    create_option($('#category_option').val(),$('.subcategory_hidden_input'),'categoryid','subcategoryid',$('#subcategory_option'));
                     
+
                     $('#category_option').change(function(){
-                        hidden_option($(this),$('.subcategory_option'),'category');
+                        let categoryId = $(this).val();
+                        create_option(categoryId,$('.subcategory_hidden_input'),'categoryid','subcategoryid',$('#subcategory_option'));
+                        
                     })
+
 
                 </script>
 

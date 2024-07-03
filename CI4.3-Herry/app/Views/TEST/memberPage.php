@@ -1,5 +1,5 @@
 <div class="public_ctn container2" data-table='會員'>
-    <form action="SearchMember" method='get'>
+    <form action="TEST/SearchMember" method='get'>
         搜尋關鍵字：
         <input type="text" name='keyword'>
         <button>送出</button>
