@@ -13,5 +13,8 @@
             echo "尚未登入";
         }
     ?>
+    <a href="<?= base_url('Login/logout')?>">
+        <button>登出</button>
+    </a>
 </body>
 </html>
