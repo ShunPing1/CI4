@@ -7,6 +7,8 @@ use App\Models\AdminModel;
 
 class BackendPage extends BaseController
 {
+    
+
     public function index()
     {   
         $db = \Config\Database::connect();

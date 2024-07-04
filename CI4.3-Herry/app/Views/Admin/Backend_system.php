@@ -14,9 +14,9 @@
         <div class="backend_title_block">
             <h1 class="backend_title">管理系統</h1>
             <div>
-                <!-- <a href="?logout=true"> -->
+                <a href="<?= base_url('AdminLogin/Logout')?>">
                     <div class="backend_title logout">登出</div>
-                <!-- </a> -->
+                </a>
             </div>
         </div>
 

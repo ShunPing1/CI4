@@ -1352,6 +1352,10 @@ a:not(:last-child) .option_item {
     color: #c33;
 }
 
+.join_btn_block{
+    margin-bottom: 15px;
+}
+
 
 
 

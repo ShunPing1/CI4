@@ -5,7 +5,7 @@ namespace App\Controllers\Ctr;
 use App\Controllers\BaseController;
 use App\Services\DatabaseService;
 
-class MemberLogin extends BaseController
+class AdminLogin extends BaseController
 {
     protected $dbService;
     protected $page;
@@ -13,17 +13,17 @@ class MemberLogin extends BaseController
     public function __construct()
     {
         $this->dbService = new DatabaseService(); 
-        $this->page = 'member_login'; 
+        $this->page = 'admin_login'; 
     }
 
     public function index()
     {
         // 檢查檔案是否存在，若是不存在就拋出PageNotFoundException異常
-        if (! is_file(APPPATH . 'Views/Member/' . $this->page . '.php')) {
+        if (! is_file(APPPATH . 'Views/Admin/' . $this->page . '.php')) {
             throw new PageNotFoundException($this->page);
         }
 
-        return view('Member/' . $this->page);
+        return view('Admin/' . $this->page);
     }
 
     public function Login()
@@ -31,28 +31,19 @@ class MemberLogin extends BaseController
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
         // 取得使用者密碼
-        $user = $this->dbService->getWhereData('memberdata',['m_username' => $username]);
+        $user = $this->dbService->getWhereData('admindata',['a_username' => $username]);
         foreach($user as $item){
-            $correct_username = $item['m_username'];
-            $correct_password = $item['m_password'];
+            $correct_username = $item['a_username'];
+            $correct_password = $item['a_password'];
         }
-
         if ($user && password_verify($password, $correct_password)) {
-
-            // 記住帳號密碼
-            $rememberState = $this->request->getPost('rememberme');
-            if ($rememberState) {
-                echo '已勾選';
-            }else{
-                echo '未勾選';
-            }
-            // $session = session();
-            // $session->set('username', $correct_username);
-            // return redirect()->to('ShoppingStore');
+            $session = session();
+            $session->set('username', $correct_username);
+            return redirect()->to('BackendPage');
 
         }else{
-            // session()->setFlashdata('msg', 'error');
-            // return redirect()->to('MemberLogin');
+            session()->setFlashdata('msg', 'error');
+            return redirect()->to('AdminLogin');
             
         }
         
@@ -63,7 +54,7 @@ class MemberLogin extends BaseController
         $session = session();
         // 登出時清除資料
         $session->remove('username');
-        return redirect()->to('MemberLogin');
+        return redirect()->to('AdminLogin');
     }
     
 }

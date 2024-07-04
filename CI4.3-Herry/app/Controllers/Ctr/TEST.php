@@ -3,16 +3,20 @@
 namespace App\Controllers\Ctr;
 
 use App\Controllers\BaseController;
+use App\Services\DatabaseService;
 
 class TEST extends BaseController
 {
+    protected $dbService;
+
+    public function __construct()
+    {
+        $this->dbService = new DatabaseService(); 
+    }
+
     public function index()
     {
-        $db = \Config\Database::connect();
-        $builder = $db->table('admindata');
-        $builder->select('admindata.*');
-        $query = $builder->get();
-        $data['admins'] = $query->getResultArray();
+        $data['admins'] = $this->dbService->getAdmindata();
         return view('TEST/test_top')
                .view('TEST/adminPage',$data)
                .view('TEST/test_bottom');
@@ -20,11 +24,7 @@ class TEST extends BaseController
 
     public function member()
     {
-        $db = \Config\Database::connect();
-        $builder = $db->table('memberdata');
-        $builder->select('memberdata.*');
-        $query = $builder->get();
-        $data['members'] = $query->getResultArray();
+        $data['members'] = $this->dbService->getMemberdata();
         return view('TEST/test_top')
         .view('TEST/memberPage',$data)
         .view('TEST/test_bottom');
@@ -41,12 +41,7 @@ class TEST extends BaseController
     {
         if (isset($_GET)) {
             $keyword = $_GET['keyword'];
-            $db = \Config\Database::connect();
-            $builder = $db->table('admindata');
-            $builder->select('admindata.*');
-            $builder->like('a_username',$keyword);
-            $query = $builder->get();
-            $data['admins'] = $query->getResultArray();
+            $data['admins'] = $this->dbService->getAdmindata($keyword);
             return view('TEST/test_top')
                    .view('TEST/adminPage',$data)
                    .view('TEST/test_bottom');

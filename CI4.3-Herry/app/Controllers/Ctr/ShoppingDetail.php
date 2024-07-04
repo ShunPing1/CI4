@@ -3,9 +3,17 @@
 namespace App\Controllers\Ctr;
 
 use App\Controllers\BaseController;
+use App\Services\DatabaseService;
 
 class ShoppingDetail extends BaseController
 {
+    protected $dbService;
+
+    public function __construct()
+    {
+        $this->dbService = new DatabaseService(); 
+    }
+
     public function index($sId,string $page = 'shopping_detail')
     {
         // 檢查檔案是否存在，若是不存在就拋出PageNotFoundException異常
@@ -13,12 +21,9 @@ class ShoppingDetail extends BaseController
             throw new PageNotFoundException($page);
         }
 
-        $db = \Config\Database::connect();
-        $builder = $db->table('products');
-        $builder->where('sID', $sId);
-        $query = $builder->get();
+        $products = $this->dbService->getWhereData('products',['sID' => $sId]);
         $data=[];
-        foreach($query->getResultArray() as $row){
+        foreach($products as $row){
             $data['sID'] = $row['sID'];
             $data['categoryID'] = $row['categoryID'];
             $data['subcategoryID'] = $row['subcategoryID'];
@@ -33,24 +38,10 @@ class ShoppingDetail extends BaseController
             $data['sContent3'] = $row['sContent3'];
         }
 
-        $builder = $db->table('category');
-        $builder->select('*');
-        $builder->orderBy('categoryID', 'ASC');
-        $query = $builder->get();
-        $category_result = $query->getResultArray();
-        $data['category'] = $category_result;
-
-        $builder = $db->table('subcategory');
-        $builder->select('*');
-        $builder->orderBy('subcategoryID', 'ASC');
-        $query = $builder->get();
-        $subcategory_result = $query->getResultArray();
-        $data['subcategory'] = $subcategory_result;
-
-        return view('Member/header', $data)
-            . view('Member/' . $page)
-            . view('Member/footer');
-
+        // 取得類別
+        $data['category'] = $this->dbService->getCategory();
+        // 取得項目
+        $data['subcategory'] = $this->dbService->getSubcategory();
 
         return view('Member/header',$data)
             . view('Member/' . $page)

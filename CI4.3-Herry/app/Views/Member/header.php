@@ -13,12 +13,12 @@
         <div class="top_nav_block">
             <div class="login_block">
                 
-                <?php if(!TRUE){?>
+                <?php if(isset($_SESSION['username'])){?>
                     <input type="hidden" class="loginCheck" data-login="login">
                     <input type="hidden" class="memberRecord" data-user="<?php 'echo $_SESSION[loginMember]';?>">
                     <a href="#" class="nav_icon_block">
                         <span class="top_nav_text"  data-login="true">
-                            <?php echo '使用者'; ?>
+                            <?php echo $_SESSION['username']; ?>
                         </span>
                         <span>您好!</span>
                     </a>
@@ -29,7 +29,7 @@
                                     <nobr>會員中心</nobr>
                                 </div>
                             </a>
-                            <a href="?logout=true">
+                            <a href="<?= base_url('MemberLogin/Logout')?>">
                                 <div class="member_option">
                                     <nobr>登出</nobr>
                                 </div>
@@ -61,7 +61,7 @@
                 <?php }else{?>
                     <!-- 使用隱藏input判斷登陸狀態 -->
                     <input type="hidden" class="loginCheck" data-login="unlogin">
-                    <a href="MemberLogin" >
+                    <a href="<?= base_url('MemberLogin')?>" >
                         <img src="<?= base_url('ctr/img/會員登入-icon.png')?>" alt="會員登入">
                         <span class="top_nav_text">會員登入</span>
                     </a>
@@ -75,7 +75,7 @@
                 
             </div>
             <div class="shopping_cart_block">
-                <?php if (TRUE) {?>
+                <?php if (isset($_SESSION['username'])) {?>
                     <a href="pages/shopping_cart.php" class="nav_icon_block">
                         <div class="cart_block">
                             <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
