@@ -28,6 +28,9 @@ class MemberLogin extends BaseController
 
     public function Login()
     {
+        
+        $session = session();
+
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
         // 取得使用者密碼
@@ -43,16 +46,24 @@ class MemberLogin extends BaseController
             $rememberState = $this->request->getPost('rememberme');
             if ($rememberState) {
                 echo '已勾選';
+                $this->response->setCookie('remember_username', $correct_username, 3600);
+                $this->response->setCookie('remember_password', $password, 3600);
             }else{
                 echo '未勾選';
+                if ($this->request->getCookie('remember_username')) {
+                    $this->response->deleteCookie('remember_username');
+                }
+                if ($this->request->getCookie('remember_password')) {
+                    $this->response->deleteCookie('remember_password');
+                }
             }
-            // $session = session();
-            // $session->set('username', $correct_username);
-            // return redirect()->to('ShoppingStore');
-
+            
+            $session->set('member_username', $correct_username);
+            // 註解時cookie正常
+            return redirect()->to('ShoppingStore');
         }else{
-            // session()->setFlashdata('msg', 'error');
-            // return redirect()->to('MemberLogin');
+            session()->setFlashdata('msg', 'error');
+            return redirect()->to('MemberLogin');
             
         }
         
@@ -62,7 +73,7 @@ class MemberLogin extends BaseController
     {
         $session = session();
         // 登出時清除資料
-        $session->remove('username');
+        $session->remove('member_username');
         return redirect()->to('MemberLogin');
     }
     

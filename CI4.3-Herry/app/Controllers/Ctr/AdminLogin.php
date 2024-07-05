@@ -28,6 +28,9 @@ class AdminLogin extends BaseController
 
     public function Login()
     {
+
+        $session = session();
+
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
         // 取得使用者密碼
@@ -40,7 +43,6 @@ class AdminLogin extends BaseController
             $session = session();
             $session->set('username', $correct_username);
             return redirect()->to('BackendPage');
-
         }else{
             session()->setFlashdata('msg', 'error');
             return redirect()->to('AdminLogin');

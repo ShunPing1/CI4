@@ -64,7 +64,7 @@
             $query = $builder->get();
             return $query->getResultArray();
         }
-
+        // select where
         public function getWhereData($table,$whereContent=[])
         {
             $builder = $this->db->table($table);
@@ -77,10 +77,21 @@
             $query = $builder->get();
             return $query->getResultArray();
         }
-
+        // insert into
         public function insertData($table,$data_arr)
         {
             $builder = $this->db->table($table);
             return $builder->insert($data_arr);
+        }
+        // update
+        public function updateData($table,$whereContent=[],$data_arr)
+        {
+            $builder = $this->db->table($table);
+
+            foreach($whereContent as $index => $value){
+                $builder->where($index,$value);
+            }
+
+            return $builder->update($data_arr);
         }
     }

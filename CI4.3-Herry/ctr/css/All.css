@@ -417,6 +417,7 @@ a{
 .backend_container_right{
     flex: 1;
     padding-top: 30px;
+    /* background-color: #eee; */
 }
 
 .current_page_active{
@@ -1274,7 +1275,8 @@ a:not(:last-child) .option_item {
 .login,
 .join,
 .update_block{
-    width: 400px;
+    max-width: 900px;
+    min-width: 400px;
     background-color: #fff;
     border-radius: 8px;
 }
@@ -1354,6 +1356,19 @@ a:not(:last-child) .option_item {
 
 .join_btn_block{
     margin-bottom: 15px;
+}
+
+/* member center */
+.member_center_container{
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+/* member center change pwd */
+.fa-triangle-exclamation{
+    color: #fa0;
 }
 
 

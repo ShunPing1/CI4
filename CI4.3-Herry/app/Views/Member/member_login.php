@@ -35,18 +35,10 @@
                     <form action="<?= base_url('MemberLogin/Login')?>" name="form1" method="post">
                         <div class="submit_block">
                             <div class="public_submit_block username">
-                                <input name="username" type="text" id="username" value="<?php 
-                                    if (isset($_COOKIE['remUser'])&&($_COOKIE['remUser'])!="") {
-                                        echo $_COOKIE['remUser'];
-                                    }
-                                ?>" class="public_input username_input" placeholder="使用者名稱：">
+                                <input name="username" type="text" id="username" value="<?php if (isset($_COOKIE['remember_username'])) echo $_COOKIE['remember_username'];?>" class="public_input username_input" placeholder="使用者名稱：">
                             </div>
                             <div class="public_submit_block password">
-                                <input name="password" type="password" id="password" value="<?php 
-                                    if (isset($_COOKIE['remPass'])&&($_COOKIE['remPass'])!="") {
-                                        echo $_COOKIE['remPass'];
-                                    }
-                                ?>"  class="public_input password_input" placeholder="密碼：">
+                                <input name="password" type="password" id="password" value="<?php if (isset($_COOKIE['remember_password'])) echo $_COOKIE['remember_password'];?>"  class="public_input password_input" placeholder="密碼：">
                             </div>
                             <div class="public_submit_block remember">
                                 <input name="rememberme" type="checkbox" id="rememberme" value="false" >

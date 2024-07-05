@@ -65,7 +65,7 @@
                         </div>
                         <div class="register_block">
                             <div class="register">
-                                <a href="member_join.php">註冊管理元</a>
+                                <a href="<?= base_url('AdminJoin')?>">註冊管理員</a>
                             </div>
                         </div>
                     </div>

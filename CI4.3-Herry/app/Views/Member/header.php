@@ -13,18 +13,18 @@
         <div class="top_nav_block">
             <div class="login_block">
                 
-                <?php if(isset($_SESSION['username'])){?>
+                <?php if(isset($_SESSION['member_username'])){?>
                     <input type="hidden" class="loginCheck" data-login="login">
                     <input type="hidden" class="memberRecord" data-user="<?php 'echo $_SESSION[loginMember]';?>">
                     <a href="#" class="nav_icon_block">
                         <span class="top_nav_text"  data-login="true">
-                            <?php echo $_SESSION['username']; ?>
+                            <?php echo $_SESSION['member_username']; ?>
                         </span>
                         <span>您好!</span>
                     </a>
                     <div class="member_select_block">
                         <div class="member_select">
-                            <a href="pages/member_center.php">
+                            <a href="<?= base_url('MemberCenter')?>">
                                 <div class="member_option">
                                     <nobr>會員中心</nobr>
                                 </div>
@@ -75,7 +75,7 @@
                 
             </div>
             <div class="shopping_cart_block">
-                <?php if (isset($_SESSION['username'])) {?>
+                <?php if (isset($_SESSION['member_username'])) {?>
                     <a href="pages/shopping_cart.php" class="nav_icon_block">
                         <div class="cart_block">
                             <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
