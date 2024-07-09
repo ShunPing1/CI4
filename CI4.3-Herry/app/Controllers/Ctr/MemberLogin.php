@@ -45,11 +45,11 @@ class MemberLogin extends BaseController
             // 記住帳號密碼
             $rememberState = $this->request->getPost('rememberme');
             if ($rememberState) {
-                echo '已勾選';
+                // echo '已勾選';
                 $this->response->setCookie('remember_username', $correct_username, 3600);
                 $this->response->setCookie('remember_password', $password, 3600);
             }else{
-                echo '未勾選';
+                // echo '未勾選';
                 if ($this->request->getCookie('remember_username')) {
                     $this->response->deleteCookie('remember_username');
                 }
@@ -59,7 +59,8 @@ class MemberLogin extends BaseController
             }
 
             // 取得購物車數量
-            $session->set('cart_amount');
+            $cart_amount = $this->dbService->limitDataNum('shopping_cart',['m_username' => $correct_username]);
+            $session->set('cart_amount',$cart_amount);
             
             $session->set('member_username', $correct_username);
             // 註解時cookie正常
@@ -77,6 +78,7 @@ class MemberLogin extends BaseController
         $session = session();
         // 登出時清除資料
         $session->remove('member_username');
+        $session->remove('cart_amount');
         return redirect()->to('MemberLogin');
     }
     

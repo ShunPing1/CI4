@@ -31,3 +31,8 @@ function create_option(categoryId,input,data01,data02,select){
     let sub_option_str = sub_option_arr.join('');
     select.html(sub_option_str);
 }
+
+function saveNum(str){
+    let match = str.match(/\d+/);
+    return match[0];
+}

@@ -413,14 +413,14 @@
                                                     if ($('.memberRecord').length > 0) {
                                                         let sc_price = saveNum($('.discount_text').text());
                                                         let sc_amount = $('.amount_num').val();
-                                                        let m_username = $('.m_username').text();
+                                                        let m_username = $('.memberUser').val();
                                                         let productId = $('.productId').val();
+                                                        console.log(sc_img,',',sc_name,',',sc_format,',',sc_price,',',sc_amount,',',m_username,',',productId);
                                                         // 判斷是否有選取賞品規格
                                                         if (!!sc_format) {
-                                                            // 傳購物車資訊給後端
                                                             $.ajax({
                                                                 type: 'post',
-                                                                url: 'ajax_request.php',
+                                                                url: '/Herry/CI4.3-Herry/ShoppingDetail/cartInsert',
                                                                 data: {
                                                                     sc_img: sc_img,
                                                                     sc_name: sc_name,
@@ -432,7 +432,7 @@
                                                                 },
                                                                 success: function(response){
                                                                     console.log('回應:'+response);
-                                                                    alert('已新增商品至購物車!');
+                                                                    // alert('已新增商品至購物車!');
                                                                     window.location.reload();
                                                                 },
                                                                 error: function(jqXHR, textStatus, errorThrown){

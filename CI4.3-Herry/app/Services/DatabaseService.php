@@ -11,6 +11,7 @@
             $this->db = \Config\Database::connect(); 
         }
 
+
         public function allDataNum($table)
         {
             return $this->db->table($table)->countAll();
@@ -132,8 +133,12 @@
             if (!empty($whereContent)) {
                 $builder->where($whereContent);
             }
-
-            $query = $builder->get($perPage,$offset);
+            
+            if (($perPage !== null)&&($offset !== null)) {
+                $query = $builder->get($perPage,$offset);
+            }else{
+                $query = $builder->get();
+            }
             return $query->getResultArray();
         }
         // insert into

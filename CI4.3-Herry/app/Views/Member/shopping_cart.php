@@ -276,42 +276,45 @@
                     </div>
                 </section>
 
+
                 <section class="public_block guest_block">
                     <div class="public_main_title">訂購人資訊</div>
                     <form action="" id="guest">
-                        <div class="public_information">
-                            <div class="public_infor_content guest_name_block">
-                                <div class="public_title">姓名</div>
-                                <input type="text" id="guest_name" class='public_form_format'>
+                        <?php foreach($member_info as $member){ ?>
+                            <div class="public_information">
+                                <div class="public_infor_content guest_name_block">
+                                    <div class="public_title">姓名</div>
+                                    <input type="text" id="guest_name" class='public_form_format' value='<?php echo $member['m_name'];?>'>
+                                </div>
+                                <div class="public_infor_content guest_phone_block">
+                                    <div class="public_title">電話</div>
+                                    <input type="text" id="guest_phone" class='public_form_format' value='<?php echo $member['m_phone'];?>'>
+                                </div>
+                                <div class="public_infor_content guest_mail_block">
+                                    <div class="public_title ">Email</div>
+                                    <input type="email" id="guest_email" class='public_form_format' value='<?php echo $member['m_email'];?>'>
+                                </div>
                             </div>
-                            <div class="public_infor_content guest_phone_block">
-                                <div class="public_title">電話</div>
-                                <input type="text" id="guest_phone" class='public_form_format'>
+                            <div class="public_address_block">
+                                <div class="public_title">地址</div>
+                                <div class="public_address_top">
+                                    <select class="public_city guest_city public_form_format">
+                                        <!-- JS 生內容 -->
+                                    </select>
+    
+                                    <input type="text" id="guest_postal" class="postal_code public_form_format" value="406" readonly>
+                                    <select class="area_list guest_area public_form_format">
+                                        <!-- JS 生內容 -->
+                                    </select>
+                                </div>
+    
+                                <div class="public_address_bottom">
+                                    <div class="public_title">路/巷/弄/號/樓</div>
+                                    <input type="text" id="guest_full_address" class='public_form_format' value='<?php echo $member['m_address'];?>'>
+                                </div>
+    
                             </div>
-                            <div class="public_infor_content guest_mail_block">
-                                <div class="public_title ">Email</div>
-                                <input type="email" id="guest_email" class='public_form_format'>
-                            </div>
-                        </div>
-                        <div class="public_address_block">
-                            <div class="public_title">地址</div>
-                            <div class="public_address_top">
-                                <select class="public_city guest_city public_form_format">
-                                    <!-- JS 生內容 -->
-                                </select>
-
-                                <input type="text" id="guest_postal" class="postal_code public_form_format" value="406" readonly>
-                                <select class="area_list guest_area public_form_format">
-                                    <!-- JS 生內容 -->
-                                </select>
-                            </div>
-
-                            <div class="public_address_bottom">
-                                <div class="public_title">路/巷/弄/號/樓</div>
-                                <input type="text" id="guest_full_address" class='public_form_format'>
-                            </div>
-
-                        </div>
+                        <?php } ?>
 
                         <script>
                             $(document).ready(() => {
@@ -592,55 +595,41 @@
 
                 <section class="submit_btn_block">
                     <div class="submit_btns">
-                        <a href="../shopping_list.php">
+                        <a href="<?= base_url('ShoppingStore')?>">
                             <button type="button" class="submit_btn continue_btn">繼續購物</button>
                         </a>
                         <button type="submit" class="submit_btn confirm_order_Btn">確認訂單</button>
                     </div>
-                    <!-- 隱藏input用於ajax傳值 -->
-                    <?php
-                        // if (isset($username)) {
-                        //     $sql_member_id = "SELECT m_ID FROM memberdata WHERE m_username = '$username'";
-                        //     $result = $db_link->query($sql_member_id);
-                        //     $row_result = $result->fetch_assoc();
-                        //     $m_ID = $row_result['m_ID'];
-                        //     $result->close();
-                        //     echo "<input type='hidden' class='m_ID' value='$m_ID'>";
-                        // }
-                    ?>
 
                     <script>
-                        
-                        $('.confirm_order_Btn').click(function () {
-                            let ajax_request = true;
-                            // 尚未輸入防呆
+                        $('.confirm_order_Btn').click(function(){
+                            let request_state = true;
+                            // 防呆:尚未勾選商品
                             if ($('.choice:checked').length === 0) {
                                 alert('請勾選商品');
-                                ajax_request = false;
+                                request_state = false;
                             }
-                            // 文字輸入框
+                            // 防呆:資料尚未輸入
                             $('.public_block input').each(function (index, value) {
 
                                 if (!!$(this).val()) {
                                     $('.public_block input').eq(index).removeClass('red');
                                 } else {
                                     $('.public_block input').eq(index).addClass('red');
-                                    ajax_request = false;
+                                    request_state = false;
                                 }
                             });
-                            // radio按鈕
+                            // 防呆:尚未選取radio按鈕
                             let sendRadio = $('input[name="send_method"]');
                             radioCheck(sendRadio);
                             let payRadio = $('input[name="pay_method"]');
                             radioCheck(payRadio);
-
                             $('.option_method').each(function(){
                                 if ($(this).hasClass('red')) {
-                                    ajax_request = false;
+                                    request_state = false;
                                 }
-                            })
-
-                            // 將更選後的購物車商品資訊存進陣列
+                            });
+                            // 將商品存入陣列
                             let sID_arr = [];
                             let format_arr = [];
                             let amount_arr = [];
@@ -653,13 +642,10 @@
                                     amount_arr.push($('.choice').eq(index).parents('.sc_order_body').find('.amount_num').val());
                                     price_arr.push($('.choice').eq(index).parents('.sc_order_body').find('.sc_discount').text().replace('$',''));
                                 }
-                            })
-
-
-                            // 當資料填寫齊全才進行ajax請求
-                            if (ajax_request) {
+                            });
+                            
+                            if (request_state) {
                                 // 請求變數
-                                   let get_mID = $('.m_ID').val();
                                    let get_totalPrice = $('.calc_total_result').text().replace('$','');
                                    let get_sendMethod = $('input[name="send_method"]:checked').next('span').text();
                                    let get_name = $('#payment_name').val();
@@ -671,47 +657,46 @@
                                    let get_orderState;
                                    if (get_payMethod != '') {
                                         if ((get_payMethod === '信用卡')||(get_payMethod === '貨到付款')) {
-                                            get_orderState = 1;
+                                            get_orderState = '待出貨';
                                         }else{
-                                            get_orderState = 2;
+                                            get_orderState = '待付款';
                                         }
                                     }
         
                                    $.ajax({
-                                    type: 'post',
-                                    url: '../ajax_request.php',
-                                    data:{
-                                        order_info: 'addorder_info',
-                                        m_ID: get_mID,
-                                        total_price: get_totalPrice,
-                                        sendMethod: get_sendMethod,
-                                        name: get_name,
-                                        phone: get_phone,
-                                        email: get_email,
-                                        postal: get_postal,
-                                        addr: get_addr,
-                                        payMethod: get_payMethod,
-                                        order_state: get_orderState,
-                                        sID_arr: sID_arr,
-                                        format_arr: format_arr,
-                                        amount_arr: amount_arr,
-                                        price_arr: price_arr
-                                    },
-                                    success: function(response){
-                                        console.log('回應:'+response);
-                                        alert('訂單送出成功!');
-                                    },
-                                    error: function(jqXHR, textStatus, errorThrown){
-                                        console.log('發送失敗:'+textStatus);
-                                    }
+                                        type: 'post',
+                                        url: 'ShoppingCart/Insert',
+                                        data:{
+                                            total_price: get_totalPrice,
+                                            sendMethod: get_sendMethod,
+                                            name: get_name,
+                                            phone: get_phone,
+                                            email: get_email,
+                                            postal: get_postal,
+                                            addr: get_addr,
+                                            payMethod: get_payMethod,
+                                            order_state: get_orderState,
+                                            sID_arr: sID_arr,
+                                            format_arr: format_arr,
+                                            amount_arr: amount_arr,
+                                            price_arr: price_arr
+                                        },
+                                        success: function(response){
+                                            console.log('回應:'+response);
+                                            alert('訂單送出成功!');
+                                            if (response.redirect) {
+                                                window.location.href = response.redirect;
+                                            }
+                                        },
+                                        error: function(jqXHR, textStatus, errorThrown){
+                                            console.log('發送失敗:'+textStatus);
+                                        }
                                    })
                             }else{
                                 alert('訂單送出失敗!');
                             }
 
-                           
-                           
-                        });
+                        })
 
 
                         // radio尚未填寫提示
@@ -726,6 +711,7 @@
                                 radio.parent('label').removeClass('red');
                             } else {
                                 radio.parent('label').addClass('red');
+                                
                             }
                         }
                     </script>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?= base_url('ctr/css/All.css')?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="<?= base_url('ctr/js/jquery.min.js')?>"></script>
+    <script src="<?= base_url('ctr/js/function.js')?>"></script>
 </head>
 <body>
     <section id="header">
@@ -76,12 +77,12 @@
             </div>
             <div class="shopping_cart_block">
                 <?php if (isset($_SESSION['member_username'])) {?>
-                        <?php if (true) {?>
+                        <?php if (isset($_SESSION['cart_amount']) && $_SESSION['cart_amount'] > 0) {?>
                             <a href="<?= base_url('ShoppingCart')?>" class="nav_icon_block">
                             <div class="cart_block">
                                 <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
                                 <?php 
-                                echo "<div class='cart_amount'>1</div>";
+                                    echo "<div class='cart_amount'>{$_SESSION['cart_amount']}</div>";
                                 ?>
                             </div>
                             <span class="top_nav_text">購物車</span>

@@ -56,5 +56,37 @@ class ShoppingDetail extends BaseController
             . view('Member/' . $page)
             . view('Member/footer');
     }
+
+    public function cartInsert()
+    {
+        
+        $session = session();
+        if ($this->request->getMethod() == 'post') {
+            $sc_img = $this->request->getPost('sc_img');
+            $sc_name = $this->request->getPost('sc_name');
+            $sc_format = $this->request->getPost('sc_format');
+            $sc_price = $this->request->getPost('sc_price');
+            $sc_amount = $this->request->getPost('sc_amount');
+            $m_username = $this->request->getPost('m_username');
+            $sID = $this->request->getPost('addCart_productId');
+            
+            $data = [
+                'sc_IMG' => $sc_img,
+                'sc_name' => $sc_name,
+                'sc_format' => $sc_format,
+                'sc_discount' => $sc_price,
+                'sc_amount' => $sc_amount,
+                'm_username' => $m_username,
+                'sID' => $sID,
+            ];
+            $insert_cart = $this->dbService->insertData('shopping_cart',$data);
+            if ($insert_cart) {
+                // 更新購物車session
+                echo "新增成功";
+                $cart_total = $this->dbService->limitDataNum('shopping_cart',['m_username' => $m_username]);
+                $session->set('cart_amount',$cart_total);
+            }
+        }
+    }
     
 }
