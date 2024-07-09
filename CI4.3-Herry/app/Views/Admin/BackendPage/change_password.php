@@ -1,9 +1,9 @@
-                <div class="backend_container_right member_center_container">
-                    <form action="<?= base_url('MemberCenter/UpdatePassword')?>" method="post" class="form_password_update">
+                <div class="backend_container_right updateData_container">
+                    <form action="<?= base_url('BackendPage/UpdatePassword')?>" method="post" class="form_password_update">
                         <div class="update_block">
 
                             <!-- 隱藏欄位：使用者資料 -->
-                            <input type="hidden" name='current_user' value='<?php if(isset($_SESSION['member_username'])) echo $_SESSION['member_username'];?>'>
+                            <input type="hidden" name='current_user' value='<?php if(isset($_SESSION['admin_ID'])) echo $_SESSION['admin_ID'];?>'>
 
 
                             <div class="basic_info_block  txt_center">

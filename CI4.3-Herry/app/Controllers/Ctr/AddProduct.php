@@ -44,7 +44,7 @@ class AddProduct extends BaseController
 
         
 
-        return redirect()->to('BackendPage');
+        return redirect()->to('BackendPage/Products');
     }
     
 }

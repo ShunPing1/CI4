@@ -1,4 +1,4 @@
-<section class="main" id="main_shopping_page">
+
             <!-- banner -->
             <div class="banner_block">
                 <div class="banner">
@@ -15,6 +15,22 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- 隱藏欄位 member username -->
+                <input type="hidden" class='memberUser' value='<?php if (isset($_SESSION['member_username'])) echo $_SESSION['member_username'];?>'>
+                <!-- favourite -->
+                <div class="hidden">
+                    <?php
+                        if (isset($_SESSION['member_username'])) {
+                            if (isset($favourite)) {
+                                foreach($favourite as $item){
+                                    echo "<input class='favourite_input' value='{$item['sID']}'>";
+                                }
+                            }
+                        }
+                    ?>
+                </div>
+
                 <div class="page_products_all">
                     <div class="page_products_left">
                         <div class="select select_PC">
@@ -200,8 +216,8 @@
                                 <script>
                                     $(document).ready(function(){
                                         // 愛心切換
-                                        $('.favourite_product').each(function(index){
-                                                let favoriteId = $('.favourite_product').eq(index).val();
+                                        $('.favourite_input').each(function(index){
+                                                let favoriteId = $('.favourite_input').eq(index).val();
                                                 if ($('.productId').val() === favoriteId) {
                                                     $('.heart').attr('src',"../../ctr/img/heart-2.png");
                                                 }
@@ -223,14 +239,15 @@
                                                 
                                                 // 取得請求所需資料
                                                 let getID = $('.productId').val();
-                                                let getUserName = $('.memberRecord').data('user');
+                                                let getUserName = $('.memberUser').val();
+                                                console.log(nowState);
                                                 // 發送ajax請求
                                                 $.ajax({
                                                     type: 'post',
-                                                    url: 'ajax_request.php',
+                                                    url: '/Herry/CI4.3-Herry/MemberCenter/FavouriteState',
                                                     data: {
-                                                        favourite: 'addfavourite',
-                                                        getUserName: getUserName,
+                                                        favourite: 'favourite_switch',
+                                                        memberRecord: getUserName,
                                                         getProductsID: getID,
                                                         favouriteState: nowState,
                                                     },
@@ -470,8 +487,3 @@
 
 
 
-
-            <a href="#" class="go_top">
-                <img src="../../ctr/img/TOP.png" alt="">
-            </a>
-        </section>

@@ -1,4 +1,4 @@
-        <div class="backend_container_right member_center_container">
+        <div class="backend_container_right updateData_container">
             <form action="<?= base_url('MemberCenter/UpdatePassword')?>" method="post" class="form_password_update">
                 <div class="update_block">
 

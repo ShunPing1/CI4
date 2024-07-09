@@ -16,6 +16,14 @@
             return $this->db->table($table)->countAll();
         }
 
+        public function limitDataNum($table,$whereContent=[])
+        {
+            $builder = $this->db->table($table);
+            foreach($whereContent as $index => $value){
+                return $builder->where($index,$value)->countAllResults();
+            }
+        }
+
         public function getProducts($perPage,$offset)
         {
             $builder = $this->db->table('products');
@@ -64,6 +72,31 @@
             $query = $builder->get();
             return $query->getResultArray();
         }
+        
+        public function getData($table,$orderBy=[],$limit=[])
+        {
+            $builder = $this->db->table($table);
+            $builder->select('*');
+
+            if (!empty($orderBy)) {
+                foreach ($orderBy as $index => $value)
+                {
+                    $query = $builder->orderBy($index,$value);
+                }
+            }
+
+            if (!empty($limit)) {
+                foreach ($limit as $index => $value)
+                {
+                    $query = $builder->get($index,$value);
+                }
+            }else{
+                $query = $builder->get();
+            }
+
+            return $query->getResultArray();
+        }
+
         // select where
         public function getWhereData($table,$whereContent=[])
         {
@@ -75,6 +108,32 @@
             }
             
             $query = $builder->get();
+            return $query->getResultArray();
+        }
+        // join
+        public function getJoinData($main_table,$select,$joinContent=[],$orderBy=[],$perPage,$offset,$whereContent=[])
+        {
+            $builder = $this->db->table($main_table);
+            $builder->select($select);
+
+            if(!empty($joinContent)){
+                foreach($joinContent as $index => $value){
+                    $builder->join($index,$value);
+                }
+            }
+
+            if (!empty($orderBy)) {
+                foreach($orderBy as $index => $value){
+                    $builder->orderBy($index,$value);
+                }
+            }
+
+            
+            if (!empty($whereContent)) {
+                $builder->where($whereContent);
+            }
+
+            $query = $builder->get($perPage,$offset);
             return $query->getResultArray();
         }
         // insert into
@@ -93,5 +152,13 @@
             }
 
             return $builder->update($data_arr);
+        }
+        // delete
+        public function deleteData($table,$deleteContent=[])
+        {
+            $builder = $this->db->table($table);
+            $builder->where($deleteContent)->delete();
+            //確認資料是否已被刪除
+            return $deleted = !$builder->where($deleteContent)->countAllResults();
         }
     }

@@ -36,13 +36,16 @@ class AdminLogin extends BaseController
         // 取得使用者密碼
         $user = $this->dbService->getWhereData('admindata',['a_username' => $username]);
         foreach($user as $item){
+            $correct_admin_ID = $item['a_ID'];
             $correct_username = $item['a_username'];
             $correct_password = $item['a_password'];
         }
         if ($user && password_verify($password, $correct_password)) {
             $session = session();
-            $session->set('username', $correct_username);
+            $session->set('admin_ID', $correct_admin_ID);
+            $session->set('admin_username', $correct_username);
             return redirect()->to('BackendPage');
+            
         }else{
             session()->setFlashdata('msg', 'error');
             return redirect()->to('AdminLogin');

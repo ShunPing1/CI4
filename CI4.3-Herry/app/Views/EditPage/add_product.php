@@ -16,7 +16,7 @@
         </div>
         <div class="href_block pages_href_block">
             <p>
-                <a href="BackendPage" class='edit_link'>回主頁面</a>
+                <a href="<?= base_url('BackendPage/Products')?>" class='edit_link'>回主頁面</a>
             </p>
         </div>
         <div><span class='hint'>*</span>為必填欄位</div>

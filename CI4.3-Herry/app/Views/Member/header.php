@@ -76,29 +76,44 @@
             </div>
             <div class="shopping_cart_block">
                 <?php if (isset($_SESSION['member_username'])) {?>
-                    <a href="pages/shopping_cart.php" class="nav_icon_block">
-                        <div class="cart_block">
-                            <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
-                            <?php 
-                                // $sql_cart_amount = "SELECT * FROM shopping_cart WHERE m_username = '$username'";
-                                // $cart_amount_result = $db_link->query($sql_cart_amount);
-                                // $cart_amount = $cart_amount_result->num_rows;
-                                // $cart_amount_result->close();
-                                if (TRUE) {
-                                    echo "<div class='cart_amount'>3</div>";
-                                }
-                            ?>
-                        </div>
-                        <span class="top_nav_text">購物車</span>
-                    </a>
+                        <?php if (true) {?>
+                            <a href="<?= base_url('ShoppingCart')?>" class="nav_icon_block">
+                            <div class="cart_block">
+                                <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
+                                <?php 
+                                echo "<div class='cart_amount'>1</div>";
+                                ?>
+                            </div>
+                            <span class="top_nav_text">購物車</span>
+                            </a>
+                        <?php }else{?>
+                            <a href="" class="nav_icon_block empty_cart_block">
+                                <div class="cart_block">
+                                    <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
+                                </div>
+                                <span class="top_nav_text">購物車</span>
+                            </a>
+                        <?php }?>
+
                 <?php }else{?>
-                    <a href="pages/member_login.php" class="nav_icon_block">
+                    <a href="#" class="nav_icon_block unlogin">
                         <div class="cart_block">
                             <img src="<?= base_url('ctr/img/購物商城-icon.png')?>" alt="購物商城">
                         </div>
                         <span class="top_nav_text">購物車</span>
                     </a>
                 <?php }?>
+                <script>
+                    $('.unlogin').click(function(e){
+                        e.preventDefault();
+                        alert('請先登入!');
+                    })
+
+                    $('.empty_cart_block').click(function(e){
+                        e.preventDefault();
+                        alert('購物車是空的!');
+                    })
+                </script>
 
             </div>
             <div class="search_block">
@@ -125,7 +140,7 @@
                             <div class="links nav_links">
                                 <div class="link nav_link"><a href="#">關於我們</a></div>
                                 <div class="link nav_link"><a href="#">最新消息</a></div>
-                                <div class="link nav_link"><a href="#">購物商城</a></div>
+                                <div class="link nav_link"><a href="<?= base_url('ShoppingStore')?>">購物商城</a></div>
                                 <div class="link nav_link"><a href="#">知識文章</a></div>
                                 <div class="link nav_link"><a href="#">聯絡我們</a></div>
                                 <div class="link nav_link"></div>
@@ -135,3 +150,4 @@
                 </div>
             </div>
     </section>
+    <section class="main">

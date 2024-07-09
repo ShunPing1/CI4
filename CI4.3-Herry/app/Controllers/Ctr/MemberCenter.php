@@ -46,6 +46,7 @@ class MemberCenter extends BaseController
     
     public function ChangePassword()
     {
+
         return view('Member/header')
             . view('Member/MemberCenter/member_center_tags')
             . view('Member/MemberCenter/member_center_changePwd')
@@ -55,11 +56,62 @@ class MemberCenter extends BaseController
 
     public function MyFavourite()
     {
-        return view('Member/header')
+        $session = session();
+        $curr_username =  $session->get('member_username');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/MemberCenter/MyFavourite');
+        $favourite_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 6;
+        $offset = ($favourite_page - 1) * $perPage;
+        $favourite_total = $this->dbService->limitDataNum('favourite',['m_username' => $curr_username]);
+        // 取得最愛資料
+        $main_table = 'favourite';
+        $select = 'favourite.*, products.*';
+        $join = ['products' => 'favourite.sID = products.sID'];
+        $where = ['m_username' => $curr_username];
+        $orderBy = ['f_ID' => 'ASC'];
+        $favourite_result = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset,$where);
+        $favourite_links = $pager->makeLinks($favourite_page, $perPage, $favourite_total,'default_full');
+
+        if ($favourite_result) {
+            $data = [
+                'favourite' =>  $favourite_result,
+                'favourite_total' => $favourite_total,
+                'favourite_links' => $favourite_links
+            ];
+            return view('Member/header')
+            . view('Member/MemberCenter/member_center_tags')
+            . view('Member/MemberCenter/member_center_favourite',$data)
+            . view('Member/footer');
+        }else{
+            return view('Member/header')
             . view('Member/MemberCenter/member_center_tags')
             . view('Member/MemberCenter/member_center_favourite')
             . view('Member/footer');
+        }
 
+    }
+
+    public function FavouriteState(){
+        if($this->request->getMethod() == 'post'){
+            $username = $this->request->getPost('memberRecord');
+            $products_ID = $this->request->getPost('getProductsID');
+            $favourite_state = $this->request->getPost('favouriteState');
+
+            // 根據狀態進行新增予刪除
+            if ($favourite_state == 'true') {
+                $data = [
+                    'm_username' => $username,
+                    'sID' => $products_ID
+                ];
+                $add_favourite = $this->dbService->insertData('favourite',$data);
+                echo $add_favourite?'新增成功':'新增失敗';
+                
+            }else{
+                $delete_favourite = $this->dbService->deleteData('favourite',['sID' => $products_ID]);
+                echo $delete_favourite?'刪除成功':'刪除失敗';
+            }
+        }
     }
 
     public function MyOrder()

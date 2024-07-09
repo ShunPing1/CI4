@@ -57,7 +57,7 @@ class UpdateProduct extends BaseController
             ];
             $builder->where('sID', $sId);
             $builder->update($data);
-            return redirect()->to('BackendPage');
+            return redirect()->to('BackendPage/Products');
         }
     }
     

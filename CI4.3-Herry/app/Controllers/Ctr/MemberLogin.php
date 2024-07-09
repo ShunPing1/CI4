@@ -57,6 +57,9 @@ class MemberLogin extends BaseController
                     $this->response->deleteCookie('remember_password');
                 }
             }
+
+            // 取得購物車數量
+            $session->set('cart_amount');
             
             $session->set('member_username', $correct_username);
             // 註解時cookie正常

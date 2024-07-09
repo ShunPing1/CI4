@@ -42,6 +42,15 @@ class ShoppingDetail extends BaseController
         $data['category'] = $this->dbService->getCategory();
         // 取得項目
         $data['subcategory'] = $this->dbService->getSubcategory();
+        // 會員登入版
+        $session = session();
+        if ($session->has('member_username')) {
+            $m_username = $session->get('member_username');
+            $favourite_result = $this->dbService->getWhereData('favourite',['m_username' => $m_username]);
+            if ($favourite_result) {
+                $data['favourite'] = $favourite_result;
+            }
+        }
 
         return view('Member/header',$data)
             . view('Member/' . $page)

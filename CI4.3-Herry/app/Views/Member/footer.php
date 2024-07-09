@@ -1,3 +1,7 @@
+            <a href="#" class="go_top">
+                <img src="<?= base_url('ctr/img/TOP.png');?>" alt="">
+            </a>
+        </seaction>
         <section id="footer">
             <div class="footer_container_block">
                 <div class="public_container footer_container">

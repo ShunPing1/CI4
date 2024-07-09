@@ -1,4 +1,4 @@
-        <div class="backend_container_right member_center_container">
+        <div class="backend_container_right updateData_container">
             <form action="<?= base_url('MemberCenter/Update')?>" name="form_member_update" method="post" id="form_member_update">
                 <div class="update_block">
                     <div class="basic_info_block txt_center">

@@ -12,6 +12,22 @@
             </div>
         </div>
     </div>
+
+    <!-- 隱藏欄位 member username -->
+    <input type="hidden" class='memberUser' value='<?php if (isset($_SESSION['member_username'])) echo $_SESSION['member_username'];?>'>
+    <!-- favourite -->
+    <div class="hidden">
+        <?php
+            if (isset($_SESSION['member_username'])) {
+                if (isset($favourite)) {
+                    foreach($favourite as $item){
+                        echo "<input class='favourite_input' value='{$item['sID']}'>";
+                    }
+                }
+            }
+        ?>
+    </div>
+
     <div class="page_products_block">
         <div class="public_container page_products_all">
             <div class="page_products_left">
@@ -49,11 +65,11 @@
                 <script>
                     // 依據資料表內紀錄的資料，判斷愛心狀態
                     let favouriteArr = [];
-                    $('.favourite_product').each(function(index){
+                    $('.favourite_input').each(function(index){
                         favouriteArr.push(parseInt($(this).val()));
                     })
                     $('.heart').each(function(index){
-                        if (($('.favourite_product').val()!=='')) {
+                        if (favouriteArr.length > 0) {
                             for (let i = 0; i < favouriteArr.length; i++) {
                                 if($(this).data('id') == favouriteArr[i]){
                                     $(this).attr('src','ctr/img/heart-2.png');
@@ -65,8 +81,8 @@
                     
                     // 愛心切換
                     $('.heart').click(function () {
-                        let logChecked = $('.loginCheck').data('login');
-                        if (logChecked === 'login') {
+                        let logChecked = $('.memberUser').val();
+                        if (logChecked !== '') {
                             let getID = $(this).data('id');
                             let nowState;
                             let imgSrc = $(this).attr('src');
@@ -77,16 +93,17 @@
                                 nowState = 'false';
                                 $(this).attr('src', 'ctr/img/heart-1.png');
                             }
+                            console.log(nowState);
 
                             // 取得請求所需資料
-                            let getUserName = $('.memberRecord').data('user');
+                            let memberRecord = $('.memberUser').val();
                             // 發送ajax請求
                             $.ajax({
                                 type: 'post',
-                                url: 'ajax_request.php',
+                                url: 'MemberCenter/FavouriteState',
                                 data: {
-                                    favourite: 'addfavourite',
-                                    getUserName: getUserName,
+                                    favourite: 'favourite_switch',
+                                    memberRecord: memberRecord,
                                     getProductsID: getID,
                                     favouriteState: nowState,
                                 },
@@ -107,10 +124,5 @@
             
             </div>
         </div>  
-
-
-        <a href="#" class="go_top">
-            <img src="ctr/img/TOP.png" alt="">
-        </a>
     </div>
 </seaction>

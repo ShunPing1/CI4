@@ -16,7 +16,7 @@
         </div>
         <div class="href_block pages_href_block">
             <p>
-                <a href="/Herry/CI4.3-Herry/BackendPage" class='backend_system'>回主頁面</a>
+                <a href="<?= base_url('BackendPage/Products')?>" class='backend_system'>回主頁面</a>
             </p>
         </div>
         <form action="/Herry/CI4.3-Herry/UpdateProduct/update" method="post" name="formAdd" id="formAdd">

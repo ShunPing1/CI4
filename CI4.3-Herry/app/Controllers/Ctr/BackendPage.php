@@ -9,101 +9,18 @@ class BackendPage extends BaseController
 {
     protected $dbService;
 
+
     public function __construct()
     {
         $this->dbService = new DatabaseService(); 
     }
 
-    // public function index()
-    // {   
-    //     $session = session();
-    //     // 取得當前管理員資料
-    //     $curr_username =  $session->get('username');
-    //     if ($curr_username) {
-    //         $db = \Config\Database::connect();
-
-    //         $pager = service('pager');
-    //         // 設置基礎路徑
-    //         $pager->setPath('/Herry/CI4.3-Herry/BackendPage');
 
 
-    //         // 產品分頁
-    //         // 當前頁碼，使用getGet('page_products')分組
-    //         $product_page = (int) ($this->request->getGet('page') ?? 1);
-    //         // 每頁顯示的資料筆數
-    //         $perPage = 5;
-    //         // 計算偏移量
-    //         $offset = ($product_page - 1) * $perPage;
-    //         // 總資料筆數
-    //         $products_total = $db->table('products')->countAll();
-    //         $builder = $db->table('products');
-    //         $builder->select('products.*, subcategory.subcategoryName');
-    //         $builder->join('subcategory', 'products.subcategoryID = subcategory.subcategoryID');
-    //         $builder->orderBy('sSort', 'ASC');
-    //         $query = $builder->get($perPage,$offset);
-    //         $products_result = $query->getResultArray();
-    //         // 如果要使用 Pager 類別來生成分頁連結
-    //         $products_links = $pager->makeLinks($product_page, $perPage, $products_total,'default_full');
-    //         $data['products'] = $products_result;
-    //         $data['products_total'] = $products_total;
-    //         $data['products_links'] = $products_links;
 
-
-    //         // 類別分頁
-    //         $category_page = (int) ($this->request->getGet('page') ?? 1);
-    //         $perPage = 10;
-    //         $offset = ($category_page - 1) * $perPage;
-    //         $category_total = $db->table('category')->countAll();
-    //         $builder = $db->table('category');
-    //         $builder->select('category.*');
-    //         $query = $builder->get($perPage,$offset);
-    //         $category_result = $query->getResultArray();
-    //         $category_links = $pager->makeLinks($category_page, $perPage, $category_total,'default_full');
-    //         $data['category'] = $category_result;
-    //         $data['category_total'] = $category_total;
-    //         $data['category_links'] = $category_links;
-
-    //         // 項目分頁
-    //         $subcategory_page = (int) ($this->request->getGet('page') ?? 1);
-    //         $perPage = 3;
-    //         $offset = ($subcategory_page - 1) * $perPage;
-    //         $total = $db->table('subcategory')->countAll();
-    //         $builder = $db->table('subcategory');
-    //         $builder->select('subcategory.*');
-    //         $query = $builder->get($perPage,$offset);
-    //         $subcategory_result = $query->getResultArray();
-    //         $subcategory_links = $pager->makeLinks($subcategory_page, $perPage, $total,'default_full');
-    //         $data['subcategory'] = $subcategory_result;
-    //         $data['subcategory_total'] = $total;
-    //         $data['subcategory_links'] = $subcategory_links;
             
-    //         // 會員名單分頁
-    //         $members_page = (int) ($this->request->getGet('page') ?? 1);
-    //         $perPage = 10;
-    //         $offset = ($members_page - 1) * $perPage;
-    //         $total = $db->table('memberdata')->countAll();
-    //         $builder = $db->table('memberdata');
-    //         $builder->select('memberdata.*');
-    //         $query = $builder->get($perPage,$offset);
-    //         $members_result = $query->getResultArray();
-    //         $members_links = $pager->makeLinks($members_page, $perPage, $total,'default_full');
-    //         $data['members'] = $members_result;
-    //         $data['members_total'] = $total;
-    //         $data['members_links'] = $members_links;
+    
 
-    //         // 管理員名單分頁
-    //         $admins_page = (int) ($this->request->getGet('page') ?? 1);
-    //         $perPage = 3;
-    //         $offset = ($admins_page - 1) * $perPage;
-    //         $total = $db->table('admindata')->countAll();
-    //         $builder = $db->table('admindata');
-    //         $builder->select('admindata.*');
-    //         $query = $builder->get($perPage,$offset);
-    //         $admins_result = $query->getResultArray();
-    //         $admins_links = $pager->makeLinks($admins_page, $perPage, $total,'default_full');
-    //         $data['admins'] = $admins_result;
-    //         $data['admins_total'] = $total;
-    //         $data['admins_links'] = $admins_links;
 
     //         // 訂單分頁
     //         $order_page = (int) ($this->request->getGet('page') ?? 1);
@@ -122,26 +39,23 @@ class BackendPage extends BaseController
     //         $data['order_info_links'] = $order_info_links;
 
 
-    //         echo view('Admin/Backend_system', $data);
-
-    //     }else{
-    //         // 查無管理員資料時導至登入介面
-    //         return redirect()->to('AdminLogin');
-    //     }
-        
-
-        
-    // }
 
     public function index()
     {
         $session = session();
         // 取得當前管理員資料
-        $curr_username =  $session->get('username');
-        if ($curr_username) {
-            
+        $curr_admin_ID =  $session->get('admin_ID');
+        if ($curr_admin_ID) {
+            // 編輯帳戶頁面
+            $admin = $this->dbService->getWhereData('admindata',['a_ID' => $curr_admin_ID]);
+            foreach($admin as $row){
+                $data['a_email'] = $row['a_email'];
+                $data['a_name'] = $row['a_name'];
+                $data['a_username'] = $row['a_username'];
+                $data['a_ID'] = $row['a_ID'];
+            }
 
-            return view('Admin/BackendPage/Backend_tags')
+            return view('Admin/BackendPage/Backend_tags',$data)
                   .view('Admin/BackendPage/edit_account');
         }else{
             // 查無管理員資料時導至登入介面
@@ -157,47 +71,242 @@ class BackendPage extends BaseController
 
     public function Products()
     {
-        return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/products_list');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Products');
+        $product_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 5;
+        $offset = ($product_page - 1) * $perPage;
+        $products_total = $this->dbService->allDataNum('products');
+        // 取得join資料
+        $main_table = 'products';
+        $select = 'products.*, subcategory.subcategoryName';
+        $join = ['subcategory' => 'products.subcategoryID = subcategory.subcategoryID'];
+        $orderBy = ['sSort' => 'ASC'];
+        $products_data = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset);
+        $products_links = $pager->makeLinks($product_page, $perPage, $products_total,'default_full');
+
+        if ($products_data) {
+            $data = [
+                'products' => $products_data,
+                'products_total'=> $products_total,
+                'products_links' => $products_links,
+            ];
+            return view('Admin/BackendPage/Backend_tags')
+               .view('Admin/BackendPage/products_list',$data);
+        }else{
+            echo '取得失敗';
+        }
+
     }
 
     public function deleteProduct($sId)
     {
-        $db = \Config\Database::connect();
-        $builder = $db->table('products');
-        $builder->delete(['sID' => $sId]);
-        return redirect()->to('BackendPage');
+        $deleteData = $this->dbService->deleteData('products',['sID' => $sId]);
+        if ($deleteData) {
+            return redirect()->to('BackendPage/Products');
+        }else{
+            echo "刪除失敗";
+        }
     }
 
     public function Category()
     {
-        return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/category_list');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Category');
+        $category_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 3;
+        $offset = ($category_page - 1) * $perPage;
+        $category_total = $this->dbService->allDataNum('category');
+        $category_result = $this->dbService->getData('category',['categorySort' => 'ASC'],[$perPage => $offset]);
+        $category_links = $pager->makeLinks($category_page, $perPage, $category_total,'default_full');
+        if ($category_result) {
+            $data = [
+                'category' => $category_result,
+                'category_total'=> $category_total,
+                'category_links' => $category_links,
+            ];
+            return view('Admin/BackendPage/Backend_tags')
+                  .view('Admin/BackendPage/category_list',$data);
+
+        }else{
+            echo "取得失敗";
+        }
     }
 
     public function Subcategory()
     {
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Subcategory');
+        $subcategory_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 3;
+        $offset = ($subcategory_page - 1) * $perPage;
+        $subcategory_total = $this->dbService->allDataNum('subcategory');
+        // 取得join資料
+        $main_table = 'subcategory';
+        $select = 'subcategory.*, category.categoryName';
+        $join = ['category' => 'subcategory.categoryID = category.categoryID'];
+        $orderBy = ['subcategorySort' => 'ASC'];
+        $subcategory_result = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset);
+        $subcategory_links = $pager->makeLinks($subcategory_page, $perPage, $subcategory_total,'default_full');
+        if ($subcategory_result) {
+            $data = [
+                'subcategory' => $subcategory_result,
+                'subcategory_total'=> $subcategory_total,
+                'subcategory_links' => $subcategory_links,
+            ];
+            return view('Admin/BackendPage/Backend_tags')
+                  .view('Admin/BackendPage/subcategory_list',$data);
+
+        }else{
+            echo "取得失敗";
+        }
         return view('Admin/BackendPage/Backend_tags')
                .view('Admin/BackendPage/subcategory_list');
     }
 
     public function Admin()
     {
-        return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/admin_list');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Admin');
+        $admin_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 5;
+        $offset = ($admin_page - 1) * $perPage;
+        $admin_total = $this->dbService->allDataNum('admindata');
+        $admin_result = $this->dbService->getData('admindata',['a_ID' => 'DESC'],[$perPage => $offset]);
+        $admin_links = $pager->makeLinks($admin_page, $perPage, $admin_total,'default_full');
+        if ($admin_result) {
+            $data = [
+                'admins' => $admin_result,
+                'admins_total' => $admin_total,
+                'admins_links' => $admin_links,
+            ];
+            return view('Admin/BackendPage/Backend_tags')
+                .view('Admin/BackendPage/admin_list',$data);
+        }
     }
 
     public function Member()
     {
-        return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/member_list');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Member');
+        $member_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 5;
+        $offset = ($member_page - 1) * $perPage;
+        $member_total = $this->dbService->allDataNum('memberdata');
+        $member_result = $this->dbService->getData('memberdata',['m_ID' => 'DESC'],[$perPage => $offset]);
+        $member_links = $pager->makeLinks($member_page, $perPage, $member_total,'default_full');
+        if ($member_result) {
+            $data = [
+                'members' => $member_result,
+                'members_total' => $member_total,
+                'members_links' => $member_links,
+            ];
+            
+            return view('Admin/BackendPage/Backend_tags')
+                  .view('Admin/BackendPage/member_list',$data);
+        }
     }
 
     public function Order()
     {
-        return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/order_list');
+        $pager = service('pager');
+        $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Order');
+        $order_info_page = (int) ($this->request->getGet('page') ?? 1);
+        $perPage = 10;
+        $offset = ($order_info_page - 1) * $perPage;
+        $order_info_total = $this->dbService->allDataNum('order_info');
+        // 取得join資料
+        $main_table = 'order_info';
+        $select = 'order_info.*, memberdata.m_username';
+        $join = ['memberdata' => 'order_info.m_ID = memberdata.m_ID'];
+        $orderBy = ['oi_ID' => 'DESC'];
+        $order_info_result = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset);
+        $order_info_links = $pager->makeLinks($order_info_page, $perPage, $order_info_total,'default_full');
+        if ($order_info_result) {
+            $data = [
+                'order_info' => $order_info_result,
+                'order_info_total' => $order_info_total,
+                'order_info_links' => $order_info_links,
+            ];
+            
+            return view('Admin/BackendPage/Backend_tags')
+                  .view('Admin/BackendPage/order_list',$data);
+        }
+
     }
+
+    public function Update()
+    {
+        $session = session();
+
+        if ($this->request->getMethod() === 'post') {
+            $a_ID = $this->request->getPost('a_ID');
+            $username = $this->request->getPost('a_username');
+            $email = $this->request->getPost('a_email');
+            $name = $this->request->getPost('a_name');
+            $data = [
+                'a_email' => $email,
+                'a_name' => $name,
+                'a_username' => $username,
+            ];
+            $updateState = $this->dbService->updateData('admindata',['a_ID' => $a_ID],$data);
+            if ($updateState) {
+                // 更新成功
+                session()->setFlashdata('update_msg', 'success');
+                return redirect()->to('BackendPage');
+            }else{
+                // 更新失敗
+                session()->setFlashdata('update_msg', 'error');
+                return redirect()->to('BackendPage');
+            }
+        }else{
+            echo '尚未收到請求';
+        }
+    }
+
+    public function UpdatePassword()
+    {
+        $session = session();
+
+        if ($this->request->getMethod() === 'post') {
+            $admin_ID = $this->request->getPost('current_user');
+            $old_password = $this->request->getPost('old_password');
+            $new_password = $this->request->getPost('new_password');
+            $new_pwdCheck = $this->request->getPost('new_pwdCheck');
+            // 取得資料表密碼
+            $query_result = $this->dbService->getWhereData('admindata',['a_ID' => $admin_ID]);
+            foreach($query_result as $item){
+                $correct_pwd = $item['a_password'];
+            }
+            echo $correct_pwd;
+            // 新密碼不能輸入空白、單引號與雙引號
+            $PasswordValid = !preg_match('/[\s"\'\\\\]/', $new_password);
+            // 判斷錯誤情況
+            if(!password_verify($old_password, $correct_pwd)){
+                session()->setFlashdata('error_msg', '密碼輸入錯誤!');
+                return redirect()->to('BackendPage/ChangePassword');
+            }elseif($new_password !== $new_pwdCheck){
+                session()->setFlashdata('error_msg', '密碼不一致!');
+                return redirect()->to('BackendPage/ChangePassword');
+            }elseif (!$PasswordValid) {
+                session()->setFlashdata('error_msg', '新密碼無效：請勿輸入空格、單引號與雙引號!');
+                return redirect()->to('BackendPage/ChangePassword');
+            }else{
+                $hashedPassword = password_hash($new_password, PASSWORD_DEFAULT);
+                $data = [
+                    'a_password' => $hashedPassword,
+                ];
+                $updatePwdState = $this->dbService->updateData('admindata',['a_ID' => $admin_ID],$data);
+                if ($updatePwdState) {
+                    return redirect()->to('AdminLogin');
+                }
+            }
+        }
+    }
+
+    
+
+    
     
 }
 ?>
