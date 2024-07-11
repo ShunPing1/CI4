@@ -113,17 +113,19 @@ class ShoppingCart extends BaseController
                 ];
                 $insert_detail = $this->dbService->insertData('order_detail',$detail_arr);
             }
-            if ($insert_detail) {
-                // 回應前端並導向指定介面
-                $response = [
-                    'status' => 'success',
-                    'redirect' => base_url('ShoppingStore'),
-                ];
-                return $this->response->setJSON($response);
+            // 批次刪除原購物車資料
+            $cartId_arr = $this->request->getPost('cart_ID_arr');
+            $delete_cart = $this->dbService->BatchDelete('shopping_cart',['sc_ID' => $cartId_arr]);
+            if ($delete_cart) {
+                echo '新增訂單成功';
+                // 更新cart_amount session
+                $cart_num = $this->dbService->limitDataNum('shopping_cart',['m_username' => $curr_user]);
+                $session->set('cart_amount',$cart_num);
+
             }
-            
+ 
         }
-        
+
     }
     
 }

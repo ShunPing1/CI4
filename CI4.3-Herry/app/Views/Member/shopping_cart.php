@@ -634,18 +634,20 @@
                             let format_arr = [];
                             let amount_arr = [];
                             let price_arr = [];
+                            let cart_ID_arr = [];
                             $('.choice').each(function(index){
-                                if ($('.choice').eq(index).prop('checked')) {
-                                    sID_arr.push($('.choice').eq(index).prev('.cart_sID').val());
-                                    console.log($('.choice').eq(index).parents('.sc_order_body').find('.sc_content_format').text());
-                                    format_arr.push($('.choice').eq(index).parents('.sc_order_body').find('.sc_content_format').text());
-                                    amount_arr.push($('.choice').eq(index).parents('.sc_order_body').find('.amount_num').val());
-                                    price_arr.push($('.choice').eq(index).parents('.sc_order_body').find('.sc_discount').text().replace('$',''));
+                                if ($(this).prop('checked')) {
+                                    sID_arr.push($(this).prev('.cart_sID').val());
+                                    format_arr.push($(this).parents('.sc_order_body').find('.sc_content_format').text());
+                                    amount_arr.push($(this).parents('.sc_order_body').find('.amount_num').val());
+                                    price_arr.push($(this).parents('.sc_order_body').find('.sc_discount').text().replace('$',''));
+                                    cart_ID_arr.push($(this).parents('.sc_order_body').find('.sc_ID').val());
                                 }
                             });
                             
                             if (request_state) {
                                 // 請求變數
+                                   let get_scID = $('.sc_ID').val();
                                    let get_totalPrice = $('.calc_total_result').text().replace('$','');
                                    let get_sendMethod = $('input[name="send_method"]:checked').next('span').text();
                                    let get_name = $('#payment_name').val();
@@ -679,14 +681,13 @@
                                             sID_arr: sID_arr,
                                             format_arr: format_arr,
                                             amount_arr: amount_arr,
-                                            price_arr: price_arr
+                                            price_arr: price_arr,
+                                            cart_ID_arr: cart_ID_arr,
                                         },
                                         success: function(response){
                                             console.log('回應:'+response);
                                             alert('訂單送出成功!');
-                                            if (response.redirect) {
-                                                window.location.href = response.redirect;
-                                            }
+                                            window.location.reload();
                                         },
                                         error: function(jqXHR, textStatus, errorThrown){
                                             console.log('發送失敗:'+textStatus);

@@ -57,9 +57,9 @@
                         ?>
                     </table>
                     <!-- 顯示分頁 -->
-                    <?= 
-                        $subcategory_links;
-                    ?>
+                    <div class="pagination_block txt_center">
+                        <?=  $subcategory_links;?>
+                     </div>
                 </div>
             </div>
         </div>

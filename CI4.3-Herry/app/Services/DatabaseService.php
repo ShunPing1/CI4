@@ -23,16 +23,17 @@
             foreach($whereContent as $index => $value){
                 return $builder->where($index,$value)->countAllResults();
             }
+
         }
 
-        public function getProducts($perPage,$offset)
-        {
-            $builder = $this->db->table('products');
-            $builder->select('*');
-            $builder->orderBy('sSort', 'ASC');
-            $query = $builder->get($perPage,$offset);
-            return $query->getResultArray();
-        }
+        // public function getProducts($perPage,$offset)
+        // {
+        //     $builder = $this->db->table('products');
+        //     $builder->select('*');
+        //     $builder->orderBy('sSort', 'ASC');
+        //     $query = $builder->get($perPage,$offset);
+        //     return $query->getResultArray();
+        // }
 
         public function getCategory()
         {
@@ -112,7 +113,7 @@
             return $query->getResultArray();
         }
         // join
-        public function getJoinData($main_table,$select,$joinContent=[],$orderBy=[],$perPage,$offset,$whereContent=[])
+        public function getJoinData($main_table,$select,$joinContent=[],$orderBy=[],$perPage=null,$offset=null,$whereContent=[])
         {
             $builder = $this->db->table($main_table);
             $builder->select($select);
@@ -165,5 +166,16 @@
             $builder->where($deleteContent)->delete();
             //確認資料是否已被刪除
             return $deleted = !$builder->where($deleteContent)->countAllResults();
+        }
+        // batch delete
+        public function BatchDelete($table,$whereInContent=[])
+        {
+            $builder = $this->db->table($table);
+
+            foreach($whereInContent as $index => $value){
+                $builder->whereIn($index,$value);
+            }
+            
+            return $builder->delete();
         }
     }

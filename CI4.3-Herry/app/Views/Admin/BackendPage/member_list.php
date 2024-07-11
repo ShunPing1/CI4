@@ -57,9 +57,9 @@
                         ?>
                     </table>
                     <!-- 顯示分頁 -->
-                    <?= 
-                        $members_links;
-                    ?>
+                    <div class="pagination_block txt_center">
+                        <?=  $members_links;?>
+                    </div>
                 </div>
             </div>
         </div>

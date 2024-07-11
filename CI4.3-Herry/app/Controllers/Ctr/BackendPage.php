@@ -15,31 +15,6 @@ class BackendPage extends BaseController
         $this->dbService = new DatabaseService(); 
     }
 
-
-
-
-            
-    
-
-
-    //         // 訂單分頁
-    //         $order_page = (int) ($this->request->getGet('page') ?? 1);
-    //         $perPage = 10;
-    //         $offset = ($order_page - 1) * $perPage;
-    //         $total = $db->table('order_info')->countAll();
-    //         $builder = $db->table('order_info');
-    //         $builder->select('order_info.*, memberdata.m_username');
-    //         $builder->join('memberdata', 'order_info.m_ID = memberdata.m_ID');
-    //         $query = $builder->get($perPage,$offset);
-    //         $builder->orderBy('oi_ID', 'DESC');
-    //         $order_info_result = $query->getResultArray();
-    //         $order_info_links = $pager->makeLinks($order_page, $perPage, $total,'default_full');
-    //         $data['order_info'] = $order_info_result;
-    //         $data['order_info_total'] = $total;
-    //         $data['order_info_links'] = $order_info_links;
-
-
-
     public function index()
     {
         $session = session();
@@ -71,31 +46,69 @@ class BackendPage extends BaseController
 
     public function Products()
     {
+        $db = \Config\Database::connect();
+
         $pager = service('pager');
         $pager->setPath('/Herry/CI4.3-Herry/BackendPage/Products');
         $product_page = (int) ($this->request->getGet('page') ?? 1);
+        $keyword_query = $this->request->getGet('keyword') ?? '';
+        $subcategory_type = $this->request->getGet('subcategory_type') ?? '';
         $perPage = 5;
         $offset = ($product_page - 1) * $perPage;
-        $products_total = $this->dbService->allDataNum('products');
-        // 取得join資料
-        $main_table = 'products';
-        $select = 'products.*, subcategory.subcategoryName';
-        $join = ['subcategory' => 'products.subcategoryID = subcategory.subcategoryID'];
-        $orderBy = ['sSort' => 'ASC'];
-        $products_data = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset);
+
+        // 取得products join資料
+        $builder = $db->table('products');
+        $builder->select('products.*, subcategory.subcategoryName');
+        $builder->join('subcategory','products.subcategoryID = subcategory.subcategoryID');
+
+        if ($keyword_query) {
+            $builder->like('products.sName', $keyword_query);
+        }
+
+        if ($subcategory_type) {
+            if ($subcategory_type !== 'all') {
+                $builder->where('products.subcategoryID', $subcategory_type);
+            }
+        }
+
+
+        $builder->orderBy('products.sSort');
+        $query = $builder->get($perPage,$offset);
+        $products_data = $query->getResultArray();
+        // 搜索時total資料會動態更動
+        if($keyword_query || $subcategory_type){
+            $builder->resetQuery();
+            $builder->select('products.*, subcategory.subcategoryName');
+            $builder->join('subcategory','products.subcategoryID = subcategory.subcategoryID');
+
+            if ($keyword_query) {
+                $builder->like('products.sName', $keyword_query);
+            }
+    
+            if ($subcategory_type) {
+                if ($subcategory_type !== 'all') {
+                    $builder->where('products.subcategoryID', $subcategory_type);
+                }
+            }
+
+            $products_total = $builder->countAllResults();
+
+        }else{
+            $products_total = $this->dbService->allDataNum('products');
+        }
         $products_links = $pager->makeLinks($product_page, $perPage, $products_total,'default_full');
 
-        if ($products_data) {
-            $data = [
-                'products' => $products_data,
-                'products_total'=> $products_total,
-                'products_links' => $products_links,
-            ];
-            return view('Admin/BackendPage/Backend_tags')
-               .view('Admin/BackendPage/products_list',$data);
-        }else{
-            echo '取得失敗';
-        }
+        // 取得類別名稱
+        $subcategory_name = $db->table('subcategory')->select('subcategoryID,subcategoryName')->get()->getResultArray();
+
+        $data = [
+            'products' => $products_data,
+            'products_total'=> $products_total,
+            'products_links' => $products_links,
+            'subcategoryNames' => $subcategory_name,
+        ];
+        return view('Admin/BackendPage/Backend_tags')
+           .view('Admin/BackendPage/products_list',$data);
 
     }
 
@@ -106,6 +119,30 @@ class BackendPage extends BaseController
             return redirect()->to('BackendPage/Products');
         }else{
             echo "刪除失敗";
+        }
+    }
+
+    public function BatchUpdateProducts()
+    {
+        if ($this->request->getMethod() == 'post') {
+            $sID_arr = $this->request->getPost('sID_arr');
+            $sort_arr = $this->request->getPost('sort_arr');
+            $img_arr = $this->request->getPost('img_arr');
+            $name_arr = $this->request->getPost('name_arr');
+            $ori_price_arr = $this->request->getPost('ori_price_arr');
+            $discount_arr = $this->request->getPost('discount_arr');
+            
+            for ($i=0; $i < count($sID_arr); $i++) {
+                $data = [
+                    'sSort' => $sort_arr[$i],
+                    'sIMG' => $img_arr[$i],
+                    'sName' => $name_arr[$i],
+                    'sOri_Price' => $ori_price_arr[$i],
+                    'sDiscount' => $discount_arr[$i],
+                ];
+                $update_state = $this->dbService->updateData('products',['sID' => $sID_arr[$i]],$data);
+            }
+            echo $update_state?'更新成功':'更新失敗';
         }
     }
 
@@ -304,8 +341,63 @@ class BackendPage extends BaseController
         }
     }
 
-    
+    public function OrderDetail($oi_ID)
+    {
+        $data['oi_ID'] = $oi_ID;
+        // 取order_detail table資料
+        $main_table = 'order_detail';
+        $select = 'order_detail.*,products.sIMG,products.sName';
+        $join = ['products' => 'order_detail.sID = products.sID'];
+        $orderBy = [];
+        $perPage = null;
+        $offset = null;
+        $where = ['order_id' => $oi_ID];
+        $order_detail_result = $this->dbService->getJoinData($main_table,$select,$join,$orderBy,$perPage,$offset,$where);
+        if ($order_detail_result) {
+            $data['order_detail'] = $order_detail_result;
+        }
 
+        // 取order_info table資料
+        $order_info_result = $this->dbService->getWhereData('order_info',['oi_ID' => $oi_ID]);
+        if ($order_info_result) {
+            $data['order_info'] = $order_info_result;
+        }
+        return view('Admin/BackendPage/BackendPage_order_detail',$data);
+    }
+
+    public function UpdateOrderState(){
+        if ($this->request->getMethod() == 'post') {
+            if (isset($_POST['oi_ID'])) {
+                $oi_ID_arr[] = $this->request->getPost('oi_ID');
+            }else{
+                $oi_ID_arr = $this->request->getPost('oi_ID_arr');
+            }
+            $order_state = $this->request->getPost('order_state');
+            for ($i=0; $i < count($oi_ID_arr); $i++) { 
+                $data = [
+                    'order_state' => $order_state,
+                ];
+                $update_result = $this->dbService->updateData('order_info',['oi_ID' => $oi_ID_arr[$i]],$data);
+            }
+
+            if (isset($_POST['oi_ID'])) {
+                return redirect()->to("BackendPage/Order");
+            }else{
+                echo '修改完成!';
+            }
+            
+        }
+    }
+
+    public function DeleteOrder($oi_ID)
+    {
+        $delete_order_info = $this->dbService->deleteData('order_info',['oi_ID' => $oi_ID]);
+        $delete_order_detail = $this->dbService->deleteData('order_detail',['order_id' => $oi_ID]);
+        if ($delete_order_info && $delete_order_detail) {
+            return redirect()->to("BackendPage/Order");
+        }
+
+    }
     
     
 }

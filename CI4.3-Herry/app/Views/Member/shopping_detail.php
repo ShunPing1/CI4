@@ -34,6 +34,11 @@
                 <div class="page_products_all">
                     <div class="page_products_left">
                         <div class="select select_PC">
+                            <div class="type_block type_PC_block">
+                                <a href="<?= base_url("ShoppingStore");?>">
+                                    <div class='option major_option all_product_tag'>所有商品</div>
+                                </a>
+                            </div>
                             <?php foreach($category as $c_item){ ?>
                                 <div class="type_block type_PC_block">
                                     <input type='hidden' name='<?php echo $c_item['categoryID'];?>'>
@@ -42,7 +47,7 @@
                                         <?php
                                             foreach($subcategory as $s_item){
                                                 if ($c_item['categoryID'] == $s_item['categoryID']) {
-                                                    echo "<a href='#'><p class='option option_item'>".$s_item['subcategoryName']."</p></a>";
+                                                    echo "<a href='".base_url("ShoppingStore?subcategoryID_search={$s_item['subcategoryID']}")."'><p class='option option_item'>".$s_item['subcategoryName']."</p></a>";
                                                 }
                                             }
                                         ?>
@@ -57,6 +62,11 @@
                             </p>
                             <!-- 選單內容 -->
                             <div class="phone_option_block">
+                                <div class="type_block type_PC_block">
+                                    <a href="<?= base_url("ShoppingStore");?>">
+                                        <div class='option major_option all_product_tag'>所有商品</div>
+                                    </a>
+                                </div>
                                 <?php foreach($category as $c_item){ ?>
                                     <div class="type_block type_PC_block">
                                         <input type='hidden' name='<?php echo $c_item['categoryID'];?>'>
@@ -65,7 +75,7 @@
                                             <?php
                                                 foreach($subcategory as $s_item){
                                                     if ($c_item['categoryID'] == $s_item['categoryID']) {
-                                                        echo "<a href='#'><p class='option option_item'>".$s_item['subcategoryName']."</p></a>";
+                                                        echo "<a href='".base_url("ShoppingStore?subcategoryID_search={$s_item['subcategoryID']}")."'><p class='option option_item'>".$s_item['subcategoryName']."</p></a>";
                                                     }
                                                 }
                                             ?>
@@ -107,7 +117,7 @@
                                     menu.find('i').removeClass('fa-angle-right').addClass('fa-chevron-down');
                                 };
                             }
-                        </script> 
+                        </script>
                     </div>
                     <div class="page_products_right">
                         <div class="page_products_content_block">

@@ -60,9 +60,9 @@
                         ?>
                     </table>
                     <!-- 顯示分頁 -->
-                    <?= 
-                        $admins_links;
-                    ?>
+                    <div class="pagination_block txt_center">
+                        <?=  $admins_links;?>
+                    </div>
                 </div>
             </div>
         </div>

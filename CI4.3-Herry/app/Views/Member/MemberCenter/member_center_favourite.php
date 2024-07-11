@@ -4,7 +4,7 @@
             <input type="hidden" class='memberUser' value='<?php if (isset($_SESSION['member_username'])) echo $_SESSION['member_username'];?>'>
 
 
-            <?php if(isset($favourite_total)) {?>
+            <?php if(isset($favourite_total) && $favourite_total > 0) {?>
                 <div class="favourite_block  txt_center">
                     <div class="favourite_img_container ">
                         <?php

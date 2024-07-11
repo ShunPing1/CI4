@@ -116,10 +116,70 @@ class MemberCenter extends BaseController
 
     public function MyOrder()
     {
+        $session = session();
+        $curr_username =  $session->get('member_username');
+        // 取得m_ID
+        $mID_result = $this->dbService->getWhereData('memberdata',['m_username' => $curr_username]);
+        if ($mID_result) {
+            foreach($mID_result as $item){
+                $m_ID = $item['m_ID'];
+            }
+        }
+        // 取得訂單資料
+        $db = \Config\Database::connect(); 
+        $builder = $db->table('order_info');
+        $builder->select('order_info.*, order_detail.*, products.sIMG, products.sName');
+        $builder->join('order_detail', 'order_info.oi_ID = order_detail.order_id', 'left');
+        $builder->join('products', 'order_detail.sID = products.sID', 'left');
+        $builder->where('m_ID', $m_ID);  // 假設使用者ID是12
+        $builder->orderBy('oi_ID','DESC');
+        $query = $builder->get();
+        $result = $query->getResultArray();
+
+        // 整理數據結構
+        $orders = [];
+        foreach ($result as $row) {
+            $orderId = $row['oi_ID'];
+            if (!isset($orders[$orderId])) {
+                $orders[$orderId] = [
+                    'order_info' => [
+                        'oi_ID' => $row['oi_ID'],
+                        'm_ID' => $row['m_ID'],
+                        'total_price' => $row['total_price'],
+                        'order_state' => $row['order_state'],
+                        'buy_time' => $row['buy_time'],
+                        'send_method' => $row['send_method'],
+                        'buyer_name' => $row['buyer_name'],
+                        'buyer_phone' => $row['buyer_phone'],
+                        'buyer_email' => $row['buyer_email'],
+                        'buyer_postal' => $row['buyer_postal'],
+                        'buyer_addr' => $row['buyer_addr'],
+                        'pay_method' => $row['pay_method'],
+                    ],
+                    'order_details' => []
+                ];
+            }
+            $orders[$orderId]['order_details'][] = [
+                'od_id' => $row['od_id'],
+                'sID' => $row['sID'],
+                'od_price' => $row['od_price'],
+                'od_quantity' => $row['od_quantity'],
+                'od_format' => $row['od_format'],
+                'sIMG' => $row['sIMG'],
+                'sName' => $row['sName'],
+            ];
+        }
+        $data['orders'] = $orders;
+
+
+        
+        $order_amount = $this->dbService->limitDataNum('order_info',['m_ID' => $m_ID]);
+        $data['order_amount'] = $order_amount;
         return view('Member/header')
-            . view('Member/MemberCenter/member_center_tags')
-            . view('Member/MemberCenter/member_center_order')
-            . view('Member/footer');
+        . view('Member/MemberCenter/member_center_tags')
+        . view('Member/MemberCenter/member_center_order',$data)
+        . view('Member/footer');
+
 
     }
 

@@ -55,9 +55,9 @@
                         ?>
                     </table>
                     <!-- 顯示分頁 -->
-                    <?= 
-                        $category_links;
-                    ?>
+                     <div class="pagination_block txt_center">
+                        <?=  $category_links;?>
+                     </div>
                 </div>
             </div>
         </div>
