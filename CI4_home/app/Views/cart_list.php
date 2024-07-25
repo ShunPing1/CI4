@@ -215,13 +215,6 @@
 
      </script>
 
-    <div class="lorem_txt">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perferendis veniam quas, pariatur fuga fugiat repudiandae eius nulla iste! Inventore tempora nulla quisquam accusantium dicta saepe non eaque, voluptatem facere?
-        Dignissimos aliquid molestiae officia omnis placeat natus. Officia expedita perferendis vel natus ipsam sequi doloribus ipsum eligendi veritatis iste minus voluptatibus animi quae, a error et nesciunt tempora odio? Repellat.
-        Facere harum eos iusto animi. Nobis quis labore dolore tempora assumenda nemo corrupti saepe laborum necessitatibus, dolorem repudiandae eos delectus soluta cum minus repellendus corporis rerum maiores mollitia ea debitis!
-        At tenetur sit possimus ullam dignissimos nostrum quos doloremque ipsum et, quo a error repellat quibusdam! Totam incidunt commodi fugiat molestias qui nostrum obcaecati, dolorem deserunt cum facilis, voluptate error.
-        Eius natus sed fuga, sunt non, distinctio illum obcaecati eaque placeat recusandae et soluta voluptate consequuntur tenetur debitis nulla! Ducimus quis qui porro voluptatem quidem corrupti consequatur quasi sapiente earum?
-    </div>
 
 
 </body>
