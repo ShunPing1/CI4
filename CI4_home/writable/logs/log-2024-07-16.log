@@ -1,0 +1,59 @@
+CRITICAL - 2024-07-16 19:29:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/show_admin.php"
+[Method: GET, Route: ShowAdmin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/show_admin.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/show_admin', [], true)
+ 3 APPPATH\Controllers\Ctr\ShowAdmin.php(10): view('Admin/show_admin')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\ShowAdmin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\ShowAdmin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-16 21:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-16 21:55:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Ctr\Login::$session is deprecated in APPPATH\Controllers\Ctr\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Ctr\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 22:00:13 --> ArgumentCountError: Too few arguments to function view(), 0 passed in C:\htdocs\CI4_home\app\Controllers\Load_page.php on line 10 and at least 1 expected
+[Method: GET, Route: Load_Page/Home]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Load_page.php(10): view()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Load_page->Home()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Load_page))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 22:17:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "main-visual@2x-tw.png"
+[Method: GET, Route: Load_Page/Ctr/img/main-visual@2x-tw.png]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars('Load_Page/Ctr/img/main-visual@2x-tw.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Load_Page/Ctr/img/main-visual@2x-tw.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 23:22:01 --> ErrorException: Undefined property: App\Controllers\Ctr\Banner::$result
+[Method: POST, Route: Ctr/Banner/InsertBanner]
+in APPPATH\Controllers\Ctr\Banner.php on line 18.
+ 1 APPPATH\Controllers\Ctr\Banner.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Ctr\\Banner::$result', 'C:\\htdocs\\CI4_home\\app\\Controllers\\Ctr\\Banner.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Banner->InsertBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-16 23:23:47 --> Error: Call to undefined method App\Controllers\Ctr\Banner::db_connect()
+[Method: POST, Route: Ctr/Banner/InsertBanner]
+in APPPATH\Controllers\Ctr\Banner.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Banner->InsertBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

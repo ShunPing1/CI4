@@ -1,0 +1,54 @@
+CRITICAL - 2024-07-09 22:04:47 --> ErrorException: Undefined variable $searchquery
+[Method: GET, Route: Products]
+in APPPATH\Controllers\Ctr\Products.php on line 21.
+ 1 APPPATH\Controllers\Ctr\Products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchquery', 'C:\\htdocs\\CI4_home\\app\\Controllers\\Ctr\\Products.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 22:04:52 --> ErrorException: Undefined variable $searchquery
+[Method: GET, Route: Products]
+in APPPATH\Controllers\Ctr\Products.php on line 21.
+ 1 APPPATH\Controllers\Ctr\Products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchquery', 'C:\\htdocs\\CI4_home\\app\\Controllers\\Ctr\\Products.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 22:05:57 --> ErrorException: Undefined variable $searchquery
+[Method: GET, Route: Products]
+in APPPATH\Controllers\Ctr\Products.php on line 21.
+ 1 APPPATH\Controllers\Ctr\Products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchquery', 'C:\\htdocs\\CI4_home\\app\\Controllers\\Ctr\\Products.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 22:06:02 --> ErrorException: Undefined variable $searchquery
+[Method: GET, Route: Products]
+in APPPATH\Controllers\Ctr\Products.php on line 21.
+ 1 APPPATH\Controllers\Ctr\Products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $searchquery', 'C:\\htdocs\\CI4_home\\app\\Controllers\\Ctr\\Products.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Products->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 22:06:27 --> ErrorException: Undefined variable $search_query
+[Method: GET, Route: Products]
+in APPPATH\Views\Pages\products.php on line 18.
+ 1 APPPATH\Views\Pages\products.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $search_query', 'C:\\htdocs\\CI4_home\\app\\Views\\Pages\\products.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\htdocs\\CI4_home\\app\\Views\\Pages\\products.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Pages/products', [], true)
+ 5 APPPATH\Controllers\Ctr\Products.php(44): view('Pages/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ctr\Products->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ctr\Products))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

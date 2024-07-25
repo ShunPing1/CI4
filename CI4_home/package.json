@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.12.3"
+  }
+}
